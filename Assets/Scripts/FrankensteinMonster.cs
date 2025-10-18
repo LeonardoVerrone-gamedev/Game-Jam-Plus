@@ -23,8 +23,10 @@ public class FrankensteinMonster : MonoBehaviour
 
     [Header("FIre")]
     public bool OnFire;
+    bool HasBeenSetOnFireOnce = false;
     [SerializeField] float minStartFireTime = 10f;
     [SerializeField] float maxStartFireTime = 100f;
+    [SerializeField] ParticleSystem fireParticles;
 
 
     void Start()
@@ -152,16 +154,23 @@ public class FrankensteinMonster : MonoBehaviour
 
     public void SetOnFire()
     {
-        if (IsComplete())
+        if ((IsComplete() || HasBeenSetOnFireOnce) && !OnFire)
         {
             return;
         }
 
+        var emission = fireParticles.emission;
+        emission.rateOverTime = 5f;
+
         OnFire = true;
+        HasBeenSetOnFireOnce = true;
     }
 
     public void SetOffFire()
     {
+        var emission = fireParticles.emission;
+        emission.rateOverTime = 0f;
+
         OnFire = false;
         Debug.Log("Fogo apagado!");
     }
