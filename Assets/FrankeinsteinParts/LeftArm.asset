@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partType: 0
   partName: LeftARm
-  partSprite: {fileID: 0}
+  partSprite: {fileID: -8536775127243038195, guid: 5c1545a5884c2a548b5dadffb1a47c7e, type: 3}
   qualityScore: 1
   attachSound: {fileID: 0}
