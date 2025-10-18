@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     
     private Rigidbody2D rb;
     private Vector2 movement;
+    private Vector2 last_movement; // for animation system
     private Vector2 rawInput;
     private Animator anim;
 
@@ -65,15 +66,20 @@ public class PlayerMovement : MonoBehaviour
         {
             movement = movement.normalized;
         }
-        
+
         if (rawInput.magnitude < 0.1f)
         {
             movement = Vector2.zero;
         }
+        
+        if(movement != Vector2.zero)
+        {
+            last_movement = movement;
+        }
 
         //Animation
-        anim.SetFloat("Horizontal", movement.x);
-        anim.SetFloat("Vertical", movement.y);
+        anim.SetFloat("Horizontal", last_movement.x);
+        anim.SetFloat("Vertical", last_movement.y);
         anim.SetFloat("Move", movement.magnitude);
     }
 
