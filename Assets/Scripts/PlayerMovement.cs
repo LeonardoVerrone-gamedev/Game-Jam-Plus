@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     private Vector2 rawInput;
+    private Animator anim;
 
     [Header("Sistema de Interação")]
     [SerializeField]private InteractSystem currentInteractable;
@@ -17,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
         inventory = GetComponent<PlayerInventory>();
     }
 
@@ -68,6 +70,11 @@ public class PlayerMovement : MonoBehaviour
         {
             movement = Vector2.zero;
         }
+
+        //Animation
+        anim.SetFloat("Horizontal", movement.x);
+        anim.SetFloat("Vertical", movement.y);
+        anim.SetFloat("Move", movement.magnitude);
     }
 
     void FixedUpdate()
