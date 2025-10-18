@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partType: 2
   partName: Brain
-  partSprite: {fileID: 0}
+  partSprite: {fileID: 5853770835242027732, guid: 2f05472fac1ca004f84cdc55c68b36ca, type: 3}
   qualityScore: 1
   attachSound: {fileID: 0}

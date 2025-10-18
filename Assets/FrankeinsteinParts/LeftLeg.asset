@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partType: 3
   partName: Left Leg
-  partSprite: {fileID: 0}
+  partSprite: {fileID: 3540365877596164407, guid: af781d56c236d5f4e9b70340965863db, type: 3}
   qualityScore: 1
   attachSound: {fileID: 0}
