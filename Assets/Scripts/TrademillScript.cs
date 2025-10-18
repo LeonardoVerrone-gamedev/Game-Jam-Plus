@@ -32,6 +32,23 @@ public class TrademillScript : MonoBehaviour
     private HashSet<Rigidbody2D> objectsInArea = new HashSet<Rigidbody2D>();
     private Dictionary<Rigidbody2D, float> objectForces = new Dictionary<Rigidbody2D, float>();
 
+    private bool isPaused = false;
+
+    void OnEnable()
+    {
+        GameplayMenu.OnPauseChanged += HandlePause;
+    }
+
+    void OnDisable()
+    {
+        GameplayMenu.OnPauseChanged -= HandlePause;
+    }
+
+    void HandlePause(bool pause)
+    {
+        isPaused = pause;
+    }
+
     void Awake()
     {
         durationInSeconds = durationInMinutes * 60f; // 150 segundos
@@ -52,6 +69,8 @@ public class TrademillScript : MonoBehaviour
 
     void Update()
     {
+        if (isPaused) return; // impede a esteira de atualizar durante o pause
+
         UpdateForce();
         UpdateJamSystem();
         ApplyForcesToObjectsInArea();

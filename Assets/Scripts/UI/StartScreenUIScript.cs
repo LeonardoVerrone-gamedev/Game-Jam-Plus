@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
+using UnityEditor;
 
 public class StartScreenUIScript : MonoBehaviour
 {
@@ -16,5 +17,14 @@ public class StartScreenUIScript : MonoBehaviour
     public void ShowCanvas(Canvas obj, bool value)
     {
         obj.gameObject.SetActive(value);
+    }
+
+    public void QUIT_GAME()
+    {
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+#else
+    Application.Quit();
+#endif
     }
 }
