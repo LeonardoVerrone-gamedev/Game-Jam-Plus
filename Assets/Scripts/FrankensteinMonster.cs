@@ -26,7 +26,7 @@ public class FrankensteinMonster : MonoBehaviour
         InitializeMissingParts(UnityEngine.Random.Range(1, 4));
     }
     
-    public void InitializeMissingParts(int numberOfMissingParts = 3)
+    public void InitializeMissingParts(int numberOfMissingParts)
     {
         missingParts.Clear();
         
