@@ -6,6 +6,16 @@ public class EndOfLineScript : MonoBehaviour
     public List<FrankensteinMonster> completeMonsters = new List<FrankensteinMonster>();
     public List<FrankensteinMonster> incompleteMonsters = new List<FrankensteinMonster>();
 
+    [SerializeField] GameManager gameManager;
+
+    void Start()
+    {
+        if (gameManager == null)
+        {
+            gameManager = FindObjectOfType<GameManager>();
+        }
+    }
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log($"TriggerEnter detectado com: {other.gameObject.name}");
@@ -23,16 +33,14 @@ public class EndOfLineScript : MonoBehaviour
         {
             Debug.Log("Frankeinstein chegou ao final completo!");
             completeMonsters.Add(monster);
+            gameManager.OnCompleteFrank();
         }
         else
         {
             Debug.Log($"Frankeinstein chegou incompleto");
             incompleteMonsters.Add(monster);
-        }
 
-        if(incompleteMonsters.Count >= 3)
-        {
-            Debug.Log("Game Over!");
+            gameManager.Miss();
         }
     }
 }
