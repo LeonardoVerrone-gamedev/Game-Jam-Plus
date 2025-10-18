@@ -46,6 +46,11 @@ public class InteractSystem : MonoBehaviour
         switch (type)
         {
             case InteractionType.GivePart:
+                if (frankensteinMonster.OnFire)
+                {
+                    UseExtintor(player);
+                    break;
+                }
                 GivePart(player);
                 break;
             case InteractionType.TakeItem:
@@ -63,7 +68,7 @@ public class InteractSystem : MonoBehaviour
 
     public void GivePart(PlayerMovement player)
     {
-        if(player.inventory.currentItem == null || player.inventory.currentItem.Type != ItemSO.ItemType.FrankeinsteinPart)
+        if (player.inventory.currentItem == null || player.inventory.currentItem.Type != ItemSO.ItemType.FrankeinsteinPart)
         {
             return;
         }
@@ -71,6 +76,23 @@ public class InteractSystem : MonoBehaviour
         {
             player.inventory.RemovePart();
         }
+    }
+    
+    public void UseExtintor(PlayerMovement player)
+    {
+        if (player.inventory.currentItem == null)
+        {
+            Debug.Log("Você precisa apagar o fogo!");
+            return;
+        }
+        if (player.inventory.currentItem.Type != ItemSO.ItemType.ExtintorDeFogo)
+        {
+            Debug.Log("Apague o fogo antes de colocar partes novas!");
+            return;
+        }
+        
+        frankensteinMonster.SetOffFire();
+        player.inventory.RemovePart(); 
     }
     
     public void TakeItem(PlayerMovement _player)

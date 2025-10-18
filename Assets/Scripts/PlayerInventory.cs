@@ -22,7 +22,7 @@ public class PlayerInventory : MonoBehaviour
     {
         if (currentItem != null)
         {
-            Debug.Log($"Removeu: {currentItem.FrankensteinPartSO.partName}");
+            Debug.Log($"Removeu: {currentItem}");
             currentItem = null;
             return true;
         }

@@ -21,15 +21,22 @@ public class FrankensteinMonster : MonoBehaviour
     public SpriteRenderer leftLegRenderer;
     public SpriteRenderer rightLegRenderer;
 
+    [Header("FIre")]
+    public bool OnFire;
+    [SerializeField] float minStartFireTime = 10f;
+    [SerializeField] float maxStartFireTime = 100f;
+
+
     void Start()
     {
         InitializeMissingParts(UnityEngine.Random.Range(1, 4));
+        StartRandomFire();
     }
-    
+
     public void InitializeMissingParts(int numberOfMissingParts)
     {
         missingParts.Clear();
-        
+
         // Cria lista de todas as partes possíveis
         List<FrankensteinPartType> allParts = new List<FrankensteinPartType>
         {
@@ -39,7 +46,7 @@ public class FrankensteinMonster : MonoBehaviour
             FrankensteinPartType.leftLeg,
             FrankensteinPartType.rightLeg
         };
-        
+
         // Remove partes aleatórias
         for (int i = 0; i < numberOfMissingParts && allParts.Count > 0; i++)
         {
@@ -47,10 +54,27 @@ public class FrankensteinMonster : MonoBehaviour
             FrankensteinPartType missingPart = allParts[randomIndex];
             missingParts.Add(missingPart);
             allParts.RemoveAt(randomIndex);
-            
+
             // Remove a parte visualmente
             RemovePartVisual(missingPart);
         }
+    }
+
+    void StartRandomFire()
+    {
+        // Agenda o primeiro incêndio em um tempo aleatório
+        float firstFireTime = UnityEngine.Random.Range(minStartFireTime, maxStartFireTime);
+        Invoke(nameof(TriggerRandomFire), firstFireTime);
+    }
+    
+    void TriggerRandomFire()
+    {
+        // Tenta colocar fogo
+        SetOnFire();
+        
+        // Agenda o próximo incêndio
+        float nextFireTime = UnityEngine.Random.Range(minStartFireTime, maxStartFireTime);
+        Invoke(nameof(TriggerRandomFire), nextFireTime);
     }
     
     public bool CanAttachPart(FrankensteinPartSO part)
@@ -120,9 +144,25 @@ public class FrankensteinMonster : MonoBehaviour
                 break;
         }
     }
-    
+
     public bool IsComplete()
     {
         return missingParts.Count == 0;
+    }
+
+    public void SetOnFire()
+    {
+        if (IsComplete())
+        {
+            return;
+        }
+
+        OnFire = true;
+    }
+
+    public void SetOffFire()
+    {
+        OnFire = false;
+        Debug.Log("Fogo apagado!");
     }
 }

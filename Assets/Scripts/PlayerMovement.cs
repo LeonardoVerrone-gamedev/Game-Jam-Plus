@@ -33,6 +33,14 @@ public class PlayerMovement : MonoBehaviour
             currentInteractable.Interact(this);
         }
     }
+
+    public void OnReleaseItem(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            inventory.RemovePart();
+        }
+    }
     
     public void SetCurrentInteractable(InteractSystem interactable)
     {
