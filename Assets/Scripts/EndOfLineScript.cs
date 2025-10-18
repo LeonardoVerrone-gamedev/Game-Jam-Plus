@@ -29,5 +29,10 @@ public class EndOfLineScript : MonoBehaviour
             Debug.Log($"Frankeinstein chegou incompleto");
             incompleteMonsters.Add(monster);
         }
+
+        if(incompleteMonsters.Count >= 3)
+        {
+            Debug.Log("Game Over!");
+        }
     }
 }
