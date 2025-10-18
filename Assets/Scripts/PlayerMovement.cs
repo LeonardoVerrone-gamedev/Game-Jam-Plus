@@ -10,9 +10,14 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
     private Vector2 rawInput;
 
+    [Header("Sistema de Interação")]
+    [SerializeField]private InteractSystem currentInteractable;
+    [SerializeField]public PlayerInventory inventory;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        inventory = GetComponent<PlayerInventory>();
     }
 
     public void OnMoveInput(InputAction.CallbackContext context)
@@ -21,17 +26,36 @@ public class PlayerMovement : MonoBehaviour
         ProcessMovement();
     }
 
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        if (context.started && currentInteractable != null)
+        {
+            currentInteractable.Interact(this);
+        }
+    }
+    
+    public void SetCurrentInteractable(InteractSystem interactable)
+    {
+        currentInteractable = interactable;
+    }
+    
+    public void ClearCurrentInteractable(InteractSystem interactable)
+    {
+        if (currentInteractable == interactable)
+        {
+            currentInteractable = null;
+        }
+    }
+
     private void ProcessMovement()
     {
         movement = rawInput;
         
-        // Normaliza o vetor para manter a mesma velocidade na diagonal
         if (movement.magnitude > 1f)
         {
             movement = movement.normalized;
         }
         
-        // Se não há input significativo, zera o movimento
         if (rawInput.magnitude < 0.1f)
         {
             movement = Vector2.zero;
