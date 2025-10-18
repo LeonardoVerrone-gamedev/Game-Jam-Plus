@@ -7,12 +7,12 @@ public class TrademillScript : MonoBehaviour
     public AreaEffector2D areaEffector;
     
     [Header("Force Curve")]
-    float startValue = 0.5f;
-    float endValue = 10f;
-    float durationInMinutes = 2.5f; // 2.30 minutos = 2.5 minutos
+    public float startValue = 0.5f;
+    public float endValue = 10f;
+    public float durationInMinutes = 2.5f; // 2.30 minutos = 2.5 minutos
     float durationInSeconds;
 
-    AnimationCurve forceCurve;
+    public AnimationCurve forceCurve;
     
     [Header("Jam Settings")]
     public float minTimeBetweenJams = 10f;
@@ -34,7 +34,7 @@ public class TrademillScript : MonoBehaviour
 
     void Start()
     {
-        durationInMinutes = durationInMinutes * 60f; // 150 segundos
+        durationInSeconds = durationInMinutes * 60f; // 150 segundos
         forceCurve = AnimationCurve.Linear(0, startValue, durationInSeconds, endValue);
 
         if (areaEffector == null)

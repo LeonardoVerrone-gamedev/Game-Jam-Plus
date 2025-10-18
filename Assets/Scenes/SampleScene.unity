@@ -1540,6 +1540,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   areaEffector: {fileID: 1661222329}
+  startValue: 0.5
+  endValue: 10
+  durationInMinutes: 2.5
+  forceCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   minTimeBetweenJams: 20
   maxTimeBetweenJams: 100
   jamDuration: 0.5
