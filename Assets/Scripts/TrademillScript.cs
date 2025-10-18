@@ -26,17 +26,20 @@ public class TrademillScript : MonoBehaviour
     private float nextJamTime;
     private float targetForce;
     private float currentCurveTime;
-    private float currentForce;
+    public float currentForce { get; private set; }
     
     // Controla objetos dentro da área
     private HashSet<Rigidbody2D> objectsInArea = new HashSet<Rigidbody2D>();
     private Dictionary<Rigidbody2D, float> objectForces = new Dictionary<Rigidbody2D, float>();
 
-    void Start()
+    void Awake()
     {
         durationInSeconds = durationInMinutes * 60f; // 150 segundos
         forceCurve = AnimationCurve.Linear(0, startValue, durationInSeconds, endValue);
+    }
 
+    void Start()
+    {
         if (areaEffector == null)
             areaEffector = GetComponent<AreaEffector2D>();
             

@@ -288,7 +288,7 @@ Transform:
   m_GameObject: {fileID: 3168081228108871017}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.99, y: 0.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -328,7 +328,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.032435417, y: -0.60004354}
+  m_Offset: {x: 1.9999616, y: -1.7296972}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -338,7 +338,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.827303, y: 6.481478}
+  m_Size: {x: 4.999923, y: 6.8377304}
   m_EdgeRadius: 0
 --- !u!114 &5216679006875421375
 MonoBehaviour:
@@ -641,7 +641,7 @@ GameObject:
   - component: {fileID: 1441795838078800459}
   - component: {fileID: 5139525307004099139}
   - component: {fileID: 7905008463546933586}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Frankeinstein
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -712,14 +712,14 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ForceReceiveLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   m_ContactCaptureLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -730,7 +730,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.024048805, y: -0.9492526}
+  m_Offset: {x: -0.05242634, y: -0.8125949}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -740,7 +740,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.9138393, y: 4.902482}
+  m_Size: {x: 2.2582111, y: 4.617359}
   m_EdgeRadius: 0
 --- !u!50 &7905008463546933586
 Rigidbody2D:
