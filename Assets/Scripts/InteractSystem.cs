@@ -17,7 +17,7 @@ public class InteractSystem : MonoBehaviour
     public FrankensteinMonster frankensteinMonster;
 
     [Header("Item")]
-    public FrankensteinPartSO item;
+    public ItemSO item;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -63,7 +63,11 @@ public class InteractSystem : MonoBehaviour
 
     public void GivePart(PlayerMovement player)
     {
-        if (frankensteinMonster.AttachPart(player.inventory.currentPart))
+        if(player.inventory.currentItem == null || player.inventory.currentItem.Type != ItemSO.ItemType.FrankeinsteinPart)
+        {
+            return;
+        }
+        if (frankensteinMonster.AttachPart(player.inventory.currentItem.FrankensteinPartSO))
         {
             player.inventory.RemovePart();
         }
@@ -71,7 +75,7 @@ public class InteractSystem : MonoBehaviour
     
     public void TakeItem(PlayerMovement _player)
     {
-        bool canPlayerTakeItem = (_player != null) && (_player.inventory.currentPart == null);
+        bool canPlayerTakeItem = (_player != null) && (_player.inventory.currentItem == null);
 
         if (canPlayerTakeItem)
         {

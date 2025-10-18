@@ -9,12 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 151fbdd4c6e5cb84b86a379b5178015f, type: 3}
-  m_Name: GivePartInteraction
+  m_Script: {fileID: 11500000, guid: 8387d8d3c71eee441bf414a1ef608b5d, type: 3}
+  m_Name: GiveLeftArm
   m_EditorClassIdentifier: 
-  interactionType: 0
-  partToGive: {fileID: 0}
-  partTypeToTake: 0
-  onInteract:
-    m_PersistentCalls:
-      m_Calls: []
+  Type: 0
+  FrankensteinPartSO: {fileID: 0}

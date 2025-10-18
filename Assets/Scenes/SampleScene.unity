@@ -1088,6 +1088,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3206117942971784056, guid: 88976328fc85fc84b96809ddd7b77e44, type: 3}
+      propertyPath: onInteractionSuccess.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5786361438685204693, guid: 88976328fc85fc84b96809ddd7b77e44, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.84

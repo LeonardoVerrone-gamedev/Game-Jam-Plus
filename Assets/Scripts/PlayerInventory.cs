@@ -3,14 +3,14 @@ using UnityEngine;
 public class PlayerInventory : MonoBehaviour
 {
     [Header("Current Item")]
-    public FrankensteinPartSO currentPart;
+    public ItemSO currentItem;
     
-    public bool AddPart(FrankensteinPartSO part)
+    public bool AddPart(ItemSO part)
     {
-        if (part != null && currentPart == null)
+        if (part != null && currentItem == null)
         {
-            currentPart = part;
-            Debug.Log($"Pegou: {part.partName}");
+            currentItem = part;
+            Debug.Log($"Pegou: {part.ItemName}");
             return true;
         }
         
@@ -20,27 +20,27 @@ public class PlayerInventory : MonoBehaviour
     
     public bool RemovePart()
     {
-        if (currentPart != null)
+        if (currentItem != null)
         {
-            Debug.Log($"Removeu: {currentPart.partName}");
-            currentPart = null;
+            Debug.Log($"Removeu: {currentItem.FrankensteinPartSO.partName}");
+            currentItem = null;
             return true;
         }
         return false;
     }
     
-    public FrankensteinPartSO GetPart()
+    public ItemSO GetPart()
     {
-        return currentPart;
+        return currentItem;
     }
     
     public bool HasPart()
     {
-        return currentPart != null;
+        return currentItem != null;
     }
     
     public bool HasPartType(FrankensteinPartType partType)
     {
-        return currentPart != null && currentPart.partType == partType;
+        return currentItem != null && currentItem.Type == ItemSO.ItemType.FrankeinsteinPart && currentItem.FrankensteinPartSO.partType == partType;
     }
 }
