@@ -211,7 +211,7 @@ MonoBehaviour:
       m_Calls: []
   type: 1
   frankensteinMonster: {fileID: 0}
-  item: {fileID: 11400000, guid: 1a1ef1a7497df7045ad2a5a6adf8f1e8, type: 2}
+  item: {fileID: 11400000, guid: ebe6cf1e6559edf48b68802517831aee, type: 2}
 --- !u!212 &170495691
 SpriteRenderer:
   m_ObjectHideFlags: 0

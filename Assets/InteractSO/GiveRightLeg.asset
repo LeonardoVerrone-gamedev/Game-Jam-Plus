@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8387d8d3c71eee441bf414a1ef608b5d, type: 3}
   m_Name: GiveRightLeg
   m_EditorClassIdentifier: 
+  ItemName: 
   Type: 0
-  FrankensteinPartSO: {fileID: 0}
+  FrankensteinPartSO: {fileID: 11400000, guid: b13f2de1a84210b4e935fbcaf0e34a43, type: 2}

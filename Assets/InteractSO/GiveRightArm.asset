@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8387d8d3c71eee441bf414a1ef608b5d, type: 3}
   m_Name: GiveRightArm
   m_EditorClassIdentifier: 
+  ItemName: 
   Type: 0
-  FrankensteinPartSO: {fileID: 0}
+  FrankensteinPartSO: {fileID: 11400000, guid: 22f7813c4d8a1464a862cba166ca4458, type: 2}
