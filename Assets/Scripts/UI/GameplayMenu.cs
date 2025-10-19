@@ -9,8 +9,13 @@ public class GameplayMenu : MonoBehaviour
     private float originalFixedDeltaTime;
 
     [SerializeField] TextMeshProUGUI timer;
+    [SerializeField] TextMeshProUGUI score;
 
     [SerializeField] GameManager gameManager;
+
+    [SerializeField] Canvas GameOverCanvas;
+    [SerializeField] TextMeshProUGUI timerInGameOverScreen;
+    [SerializeField] TextMeshProUGUI finalScoreInGameOverScreen;
 
     
     void Start()
@@ -23,9 +28,18 @@ public class GameplayMenu : MonoBehaviour
         Time.timeScale = value ? 0f : 1f;
         OnPauseChanged?.Invoke(value);
     }
-    
+
     void Update()
     {
         timer.text = gameManager.surviveTime.ToString("0:00");
+
+        score.text = gameManager.score.ToString();
+    }
+    
+    public void SetGameOverScreen()
+    {
+        GameOverCanvas.gameObject.SetActive(true);
+        timerInGameOverScreen.text = gameManager.surviveTime.ToString("0:00");
+        finalScoreInGameOverScreen.text = gameManager.score.ToString();
     }
 }
