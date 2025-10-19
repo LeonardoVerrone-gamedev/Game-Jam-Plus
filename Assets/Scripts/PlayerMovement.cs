@@ -68,8 +68,6 @@ public class PlayerMovement : MonoBehaviour
 
     void ReleaseItem()
     {
-        inventory.RemovePart();
-
         if(inventory.currentItem.Type == ItemSO.ItemType.FrankeinsteinPart)
         {
             FrankensteinPartSO _part = inventory.currentItem.FrankensteinPartSO;
@@ -89,6 +87,8 @@ public class PlayerMovement : MonoBehaviour
             
             itemAudioSource.clip = dropItemClip;
             itemAudioSource.Play();
+
+            inventory.RemovePart();
         }
     }
     
