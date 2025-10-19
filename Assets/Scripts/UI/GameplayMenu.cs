@@ -31,7 +31,9 @@ public class GameplayMenu : MonoBehaviour
 
     void Update()
     {
-        timer.text = gameManager.surviveTime.ToString("0:00");
+        int minutes = Mathf.FloorToInt(gameManager.surviveTime / 60f);
+        int seconds = Mathf.FloorToInt(gameManager.surviveTime % 60f);
+        timer.text = $"{minutes:00}:{seconds:00}";
 
         score.text = gameManager.score.ToString();
     }
