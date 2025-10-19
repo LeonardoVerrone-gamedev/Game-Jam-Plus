@@ -6,13 +6,21 @@ public class GameManager : MonoBehaviour
     [SerializeField] public int life = 3;
     [SerializeField] public int score;
 
+    bool hasLost;
+
     void Start()
     {
         score = 0;
+        hasLost = false;
     }
 
     void Update()
     {
+        if (hasLost)
+        {
+            return;
+        }
+
         surviveTime += Time.deltaTime;
     }
 
@@ -28,7 +36,7 @@ public class GameManager : MonoBehaviour
 
     void GameOver()
     {
-
+        hasLost = true;
     }
     
     public void OnCompleteFrank()
