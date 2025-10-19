@@ -316,6 +316,9 @@ MonoBehaviour:
   audioSource: {fileID: 4831758580193602825}
   itemAudioSource: {fileID: 6166002350386745020}
   dropItemClip: {fileID: 8300000, guid: ab3171002020f2440b6c5b186e5cd9a3, type: 3}
+  brainDropPrefab: {fileID: 8129527670497214350, guid: 8a921b7346250ca4e914a02b98dca87d, type: 3}
+  armDropPrefab: {fileID: 1427546187080595372, guid: 52617fe809088ea4c883331d101dfbb4, type: 3}
+  legDropPrefab: {fileID: 5209646247676704522, guid: ff6d53ca2e2115340b9496812c824d59, type: 3}
 --- !u!50 &5822229700587352645
 Rigidbody2D:
   serializedVersion: 5
@@ -456,6 +459,14 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 76910809-8dcf-445a-9157-f543ea830cd0
     m_ActionName: 'Player/Release[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 33fabe8a-ea2e-461f-9240-2750de7d938d
+    m_ActionName: 'Player/Pause[/Keyboard/escape]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 31d73ced-25ca-4ef5-b954-175fbbabba43
+    m_ActionName: 'UI/Pause[/Keyboard/escape]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

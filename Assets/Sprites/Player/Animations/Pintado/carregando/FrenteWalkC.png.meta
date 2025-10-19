@@ -141,6 +141,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -509,7 +548,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FrenteWalkC_0: 6504747140129713950
+      FrenteWalkC_1: 3418998149221926843
+      FrenteWalkC_10: 6104670615107597365
+      FrenteWalkC_11: -7615058411668435921
+      FrenteWalkC_12: 3174935788735455046
+      FrenteWalkC_13: 288667055895605217
+      FrenteWalkC_14: -7781915920837319171
+      FrenteWalkC_15: 1221115865398295501
+      FrenteWalkC_2: -2357099310296920754
+      FrenteWalkC_3: -8167036009957628159
+      FrenteWalkC_4: 1714188940197160230
+      FrenteWalkC_5: 1649487944140344397
+      FrenteWalkC_6: -6283545079694051424
+      FrenteWalkC_7: -7627000769068213337
+      FrenteWalkC_8: -4753838892903054619
+      FrenteWalkC_9: 2718733007978720886
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

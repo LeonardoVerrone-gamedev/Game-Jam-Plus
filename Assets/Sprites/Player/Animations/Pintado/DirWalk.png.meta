@@ -138,6 +138,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -484,7 +523,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DirWalk_0: 3155610218709565249
+      DirWalk_1: -3935215501881106931
+      DirWalk_10: -3550145849123791931
+      DirWalk_11: -4268396810729639124
+      DirWalk_12: -3103282937949674235
+      DirWalk_13: 6966449111612990139
+      DirWalk_14: -7718836113383167065
+      DirWalk_2: -9217566754191935494
+      DirWalk_3: -5886955609106428510
+      DirWalk_4: 4163997169227688327
+      DirWalk_5: -1219459407784742530
+      DirWalk_6: 2195117996755514826
+      DirWalk_7: -8782216294784941406
+      DirWalk_8: 3037293020807304455
+      DirWalk_9: 400441579495722733
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

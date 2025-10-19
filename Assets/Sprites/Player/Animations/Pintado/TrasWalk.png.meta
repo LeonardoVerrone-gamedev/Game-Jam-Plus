@@ -141,6 +141,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -509,7 +548,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TrasWalk_0: 4138841977620665415
+      TrasWalk_1: 819850111194861342
+      TrasWalk_10: -2389522847630483866
+      TrasWalk_11: 8050629369797425026
+      TrasWalk_12: -9200590311453377766
+      TrasWalk_13: 85016854346746647
+      TrasWalk_14: -8897407981909770437
+      TrasWalk_15: 8567146427858502888
+      TrasWalk_2: -1434598882228298435
+      TrasWalk_3: -5900035772429109018
+      TrasWalk_4: 6418722562236196071
+      TrasWalk_5: 7901057855643545678
+      TrasWalk_6: 375481389958913502
+      TrasWalk_7: -4634900424682372446
+      TrasWalk_8: 2291643499166940963
+      TrasWalk_9: -5966746666491597304
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

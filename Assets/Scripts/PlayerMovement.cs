@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -25,6 +26,10 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] AudioSource itemAudioSource;
     [SerializeField] AudioClip dropItemClip;
+
+    [SerializeField] GameObject brainDropPrefab;
+    [SerializeField] GameObject armDropPrefab;
+    [SerializeField] GameObject legDropPrefab;
 
     void Start()
     {
@@ -57,9 +62,33 @@ public class PlayerMovement : MonoBehaviour
     {
         if (context.started && canMove)
         {
+            ReleaseItem();
+        }
+    }
+
+    void ReleaseItem()
+    {
+        inventory.RemovePart();
+
+        if(inventory.currentItem.Type == ItemSO.ItemType.FrankeinsteinPart)
+        {
+            FrankensteinPartSO _part = inventory.currentItem.FrankensteinPartSO;
+            FrankensteinPartType part = _part.partType;
+            if (part == FrankensteinPartType.leftArm || part == FrankensteinPartType.rightArm)
+            {
+                Instantiate(armDropPrefab, holdingObjectRender.transform.position, Quaternion.identity);
+            }
+            else if (part == FrankensteinPartType.leftLeg || part == FrankensteinPartType.rightLeg)
+            {
+                Instantiate(legDropPrefab, holdingObjectRender.transform.position, Quaternion.identity);
+            }
+            else
+            {
+                Instantiate(brainDropPrefab, holdingObjectRender.transform.position, Quaternion.identity);
+            }
+            
             itemAudioSource.clip = dropItemClip;
             itemAudioSource.Play();
-            inventory.RemovePart();
         }
     }
     

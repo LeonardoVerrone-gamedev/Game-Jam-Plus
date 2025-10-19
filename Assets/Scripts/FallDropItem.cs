@@ -18,8 +18,8 @@ public class FallDropItem : MonoBehaviour
     {
         rb.gravityScale = 0f;
         anim.SetTrigger("BreakStuff");
-        audioSource.clip = audioClip;
-        audioSource.Play();
+        //audioSource.clip = audioClip;
+        //audioSource.Play();
     }
 
     public void OnEndAnimation()

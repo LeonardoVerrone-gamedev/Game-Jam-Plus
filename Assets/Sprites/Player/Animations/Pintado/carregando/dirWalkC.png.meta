@@ -138,6 +138,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -484,7 +523,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dirWalkC_0: -7977908559930050988
+      dirWalkC_1: -7242052142958084263
+      dirWalkC_10: -498907344683542671
+      dirWalkC_11: -6293101803023933297
+      dirWalkC_12: -4193566755567680110
+      dirWalkC_13: -390184313012289127
+      dirWalkC_14: 8353400985935826208
+      dirWalkC_2: -6698392100252866767
+      dirWalkC_3: -1864585814820455084
+      dirWalkC_4: -4759212019594162874
+      dirWalkC_5: -1589934039600132054
+      dirWalkC_6: 7665098015639642381
+      dirWalkC_7: 4255092015628100530
+      dirWalkC_8: 5278326490482235795
+      dirWalkC_9: -4857070909666741073
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

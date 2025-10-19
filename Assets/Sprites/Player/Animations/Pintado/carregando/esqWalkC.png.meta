@@ -138,6 +138,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -484,7 +523,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      esqWalkC_0: 8444641884345675584
+      esqWalkC_1: -683322549161659321
+      esqWalkC_10: 460462146536836300
+      esqWalkC_11: -7445866540034014103
+      esqWalkC_12: -1796083041735172768
+      esqWalkC_13: -8938260619864457261
+      esqWalkC_14: 5782136911364862687
+      esqWalkC_2: -2814832671733299146
+      esqWalkC_3: 3899576484950554256
+      esqWalkC_4: 5020167164799515751
+      esqWalkC_5: -8477564673489823971
+      esqWalkC_6: 6332806888107256380
+      esqWalkC_7: -6458448206946578207
+      esqWalkC_8: 4503026676140335282
+      esqWalkC_9: 7764125288531504898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
