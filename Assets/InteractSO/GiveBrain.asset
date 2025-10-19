@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: Brain
   Type: 0
-  holdingSprite: {fileID: -3753964505871217437, guid: 60fb4bca2aaa15c40b99c655ce662618, type: 3}
+  holdingSprite: {fileID: 21300000, guid: 5957b043ea02dd5419b0a574bf317629, type: 3}
   FrankensteinPartSO: {fileID: 11400000, guid: 1554db17c14e6154ab38cedc96b0953c, type: 2}

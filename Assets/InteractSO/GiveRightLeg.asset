@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: RightLeg
   Type: 0
-  holdingSprite: {fileID: 8552039310817403890, guid: 60fb4bca2aaa15c40b99c655ce662618, type: 3}
+  holdingSprite: {fileID: 21300000, guid: ff41296b2722e3c42a7cf3df89abcc10, type: 3}
   FrankensteinPartSO: {fileID: 11400000, guid: b13f2de1a84210b4e935fbcaf0e34a43, type: 2}

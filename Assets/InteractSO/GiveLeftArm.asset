@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: LeftArm
   Type: 0
-  holdingSprite: {fileID: -3545883667948692867, guid: 60fb4bca2aaa15c40b99c655ce662618, type: 3}
+  holdingSprite: {fileID: 21300000, guid: 26a372cfe71acab4db675d1c19da39b2, type: 3}
   FrankensteinPartSO: {fileID: 11400000, guid: 1a1ef1a7497df7045ad2a5a6adf8f1e8, type: 2}
