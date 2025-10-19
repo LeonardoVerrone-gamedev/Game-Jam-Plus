@@ -19,8 +19,8 @@ public class GameplayMenu : MonoBehaviour
 
     [SerializeField] Image[] healthImages;
     [SerializeField] Sprite healthIcon;
+    [SerializeField] Sprite healthIconOff;
 
-    
     void Start()
     {
         originalFixedDeltaTime = Time.fixedDeltaTime;
@@ -60,7 +60,7 @@ public class GameplayMenu : MonoBehaviour
             }
             else
             {
-                healthImages[i].sprite = null;
+                healthImages[i].sprite = healthIconOff;
             }
         }
     }
