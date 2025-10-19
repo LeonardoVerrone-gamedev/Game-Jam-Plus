@@ -126,7 +126,7 @@ public class FrankensteinMonster : MonoBehaviour
         
         return true;
     }
-    
+
     private void RemovePartVisual(FrankensteinPartType partType)
     {
         switch (partType)
@@ -147,6 +147,19 @@ public class FrankensteinMonster : MonoBehaviour
                 rightLegRenderer.sprite = null;
                 break;
         }
+    }
+
+    public void EndOfLine()
+    {
+        squash.PlayStretchAnimation("FrankExit");
+        float timeToFinish = squash.GetAnimationTime();
+
+        Invoke("Destroy", 1f);
+    }
+    
+    void Destroy()
+    {
+        Destroy(this.gameObject);
     }
 
     public bool IsComplete()

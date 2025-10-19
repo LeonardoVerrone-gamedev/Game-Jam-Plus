@@ -5442,6 +5442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   patterns:
   - {fileID: 11400000, guid: 9335f77af27e4544a919fc824e9ef6bc, type: 2}
+  - {fileID: 11400000, guid: e9c22f36f5efc464aabdd4e491407d96, type: 2}
   originalScale: {x: 0.5, y: 0.5, z: 0.5}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &5116291628587878028

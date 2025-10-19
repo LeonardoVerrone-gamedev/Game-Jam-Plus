@@ -12,6 +12,7 @@ public class ScratchAndStretch : MonoBehaviour
     private int currentPriority; // Adicionando um campo para armazenar a prioridade atual
 
     [SerializeField] Color originalColor;
+    StretchPatternSO currentPattern;
 
 
     void Start()
@@ -62,6 +63,7 @@ public class ScratchAndStretch : MonoBehaviour
         {
             //originalColor = Color.green;
         }
+        currentPattern = pattern;
 
         // Loop se a animação for em loop
         if (pattern.loop)
@@ -165,5 +167,12 @@ public class ScratchAndStretch : MonoBehaviour
         {
             spriteRenderer.color = originalColor;
         }
+    }
+
+    public float GetAnimationTime()
+    {
+        float duracao = currentPattern.stretchCurve.keys[currentPattern.stretchCurve.length - 1].time;
+
+        return duracao;
     }
 }

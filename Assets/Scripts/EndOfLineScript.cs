@@ -43,6 +43,6 @@ public class EndOfLineScript : MonoBehaviour
             gameManager.Miss();
         }
 
-        Destroy(monster.gameObject);
+        monster.EndOfLine();
     }
 }
