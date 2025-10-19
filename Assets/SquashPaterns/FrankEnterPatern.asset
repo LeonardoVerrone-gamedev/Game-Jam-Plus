@@ -48,6 +48,6 @@ MonoBehaviour:
     m_RotationOrder: 4
   maxStretchFactor: 1.5
   loop: 0
-  priority: 0
+  priority: 2
   changeColor: 0
   colors: []
