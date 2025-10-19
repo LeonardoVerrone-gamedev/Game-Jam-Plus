@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        if (context.started && currentInteractable != null)
+        if (context.started && currentInteractable != null && canMove)
         {
             currentInteractable.Interact(this);
         }
@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnReleaseItem(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (context.started && canMove)
         {
             itemAudioSource.clip = dropItemClip;
             itemAudioSource.Play();

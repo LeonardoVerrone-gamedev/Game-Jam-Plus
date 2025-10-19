@@ -40,10 +40,13 @@ public class FrankensteinMonster : MonoBehaviour
     [SerializeField] AudioSource audioSource;
     [SerializeField] AudioSource fireAudioSource;
 
+    int initialMissingParts = 0;
+
 
     void Start()
     {
-        InitializeMissingParts(UnityEngine.Random.Range(1, 4));
+        initialMissingParts = UnityEngine.Random.Range(1, 4);
+        InitializeMissingParts(initialMissingParts);
         squash.PlayStretchAnimation("FrankEnter");
         StartRandomFire();
     }
@@ -193,7 +196,7 @@ public class FrankensteinMonster : MonoBehaviour
 
     public void SetOnFire()
     {
-        if ((IsComplete() || HasBeenSetOnFireOnce) && !OnFire)
+        if ((IsComplete() || HasBeenSetOnFireOnce || initialMissingParts <= 2) && !OnFire)
         {
             return;
         }
