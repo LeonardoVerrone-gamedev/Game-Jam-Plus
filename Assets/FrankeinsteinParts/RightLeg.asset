@@ -16,4 +16,4 @@ MonoBehaviour:
   partName: Right Leg
   partSprite: {fileID: 8552039310817403890, guid: 60fb4bca2aaa15c40b99c655ce662618, type: 3}
   qualityScore: 1
-  attachSound: {fileID: 0}
+  attachSound: {fileID: 8300000, guid: 641ee00799a5d71449305b58aa7fb54b, type: 3}

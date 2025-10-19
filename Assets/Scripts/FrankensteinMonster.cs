@@ -34,6 +34,11 @@ public class FrankensteinMonster : MonoBehaviour
     [SerializeField] float minStartFireTime = 10f;
     [SerializeField] float maxStartFireTime = 100f;
     [SerializeField] ParticleSystem fireParticles;
+    public int fireAmount = 5;
+
+    [Header("Sound")]
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioSource fireAudioSource;
 
 
     void Start()
@@ -95,7 +100,7 @@ public class FrankensteinMonster : MonoBehaviour
     public bool AttachPart(FrankensteinPartSO part)
     {
         if (!CanAttachPart(part)) return false;
-        
+
         // Atribui a parte ao monstro
         switch (part.partType)
         {
@@ -125,14 +130,22 @@ public class FrankensteinMonster : MonoBehaviour
                 rightLegScratch.PlayStretchAnimation("PartPlacePattern");
                 break;
         }
+
+        audioSource.clip = part.attachSound;
+        audioSource.Play();
         
         // Remove da lista de partes faltantes
         missingParts.Remove(part.partType);
-        
+
         // Toca som de attach
         if (part.attachSound != null)
         {
             AudioSource.PlayClipAtPoint(part.attachSound, transform.position);
+        }
+
+        if (IsComplete())
+        {
+            PlayOnCompleteSquashAnimation();
         }
         
         return true;
@@ -186,7 +199,9 @@ public class FrankensteinMonster : MonoBehaviour
         }
 
         var emission = fireParticles.emission;
-        emission.rateOverTime = 10f;
+        emission.rateOverTime = fireAmount;
+
+        fireAudioSource.Play();
 
         OnFire = true;
         HasBeenSetOnFireOnce = true;
@@ -197,7 +212,14 @@ public class FrankensteinMonster : MonoBehaviour
         var emission = fireParticles.emission;
         emission.rateOverTime = 0f;
 
+        fireAudioSource.Stop();
+
         OnFire = false;
         Debug.Log("Fogo apagado!");
+    }
+
+    public void PlayOnCompleteSquashAnimation()
+    {
+        squash.PlayStretchAnimation("FrankComplete");
     }
 }

@@ -18,13 +18,24 @@ public class PlayerMovement : MonoBehaviour
     bool isHoldingSomething;
     [SerializeField] SpriteRenderer holdingObjectRender;
 
+    public bool canMove = false;
+    public float contagemInicial = 3f;
+
+    [SerializeField] AudioSource audioSource;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         inventory = GetComponent<PlayerInventory>();
+
+        Invoke("SetCanMove", 3f);
     }
 
+    void SetCanMove()
+    {
+        canMove = !canMove;
+    }
     public void OnMoveInput(InputAction.CallbackContext context)
     {
         rawInput = context.ReadValue<Vector2>();
@@ -62,6 +73,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void ProcessMovement()
     {
+        if (!canMove)
+        {
+            movement = Vector2.zero;
+            last_movement = movement;
+            return;
+        }
+
         movement = rawInput;
 
         if (movement.magnitude > 1f)
@@ -77,6 +95,16 @@ public class PlayerMovement : MonoBehaviour
         if (movement != Vector2.zero)
         {
             last_movement = movement;
+        }
+
+        //Audio
+        if(movement.magnitude > 0.1f)
+        {
+            audioSource.Play();
+        }
+        else
+        {
+            audioSource.Stop();
         }
 
         //Animation
@@ -102,6 +130,11 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (!canMove)
+        {
+            return;
+        }
+
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }

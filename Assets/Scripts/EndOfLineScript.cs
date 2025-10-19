@@ -8,6 +8,10 @@ public class EndOfLineScript : MonoBehaviour
 
     [SerializeField] GameManager gameManager;
 
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] AudioClip failClip;
+    [SerializeField] AudioClip successClip;
+
     void Start()
     {
         if (gameManager == null)
@@ -33,16 +37,17 @@ public class EndOfLineScript : MonoBehaviour
         {
             Debug.Log("Frankeinstein chegou ao final completo!");
             completeMonsters.Add(monster);
+            audioSource.clip = successClip;
             gameManager.OnCompleteFrank();
         }
         else
         {
             Debug.Log($"Frankeinstein chegou incompleto");
             incompleteMonsters.Add(monster);
-
+            audioSource.clip = failClip;
             gameManager.Miss();
         }
-
+        audioSource.Play();
         monster.EndOfLine();
     }
 }
