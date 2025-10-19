@@ -21,15 +21,18 @@ public class GameplayMenu : MonoBehaviour
     [SerializeField] Sprite healthIcon;
     [SerializeField] Sprite healthIconOff;
 
+    bool paused = false;
+
     void Start()
     {
         originalFixedDeltaTime = Time.fixedDeltaTime;
     }
 
-    public void Pause(bool value)
+    public void Pause()
     {
-        Time.timeScale = value ? 0f : 1f;
-        OnPauseChanged?.Invoke(value);
+        paused = !paused;
+        Time.timeScale = paused ? 0f : 1f;
+        OnPauseChanged?.Invoke(paused);
     }
 
     void Update()
