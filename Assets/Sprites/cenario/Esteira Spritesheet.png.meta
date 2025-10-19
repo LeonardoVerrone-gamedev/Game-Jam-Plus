@@ -1,0 +1,1156 @@
+fileFormatVersion: 2
+guid: 2252b7558930fad4ea8476b916c6fbdb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2934517327439711219
+    second: Esteira Spritesheet_0
+  - first:
+      213: 2299498449828694152
+    second: Esteira Spritesheet_1
+  - first:
+      213: 4738177394638034218
+    second: Esteira Spritesheet_2
+  - first:
+      213: 6909039526589379342
+    second: Esteira Spritesheet_3
+  - first:
+      213: 5834349181482159329
+    second: Esteira Spritesheet_4
+  - first:
+      213: 4698343908470880238
+    second: Esteira Spritesheet_5
+  - first:
+      213: -5926176081611545514
+    second: Esteira Spritesheet_6
+  - first:
+      213: 7957933580747839146
+    second: Esteira Spritesheet_7
+  - first:
+      213: -6928878204646903429
+    second: Esteira Spritesheet_8
+  - first:
+      213: -1825184078659704911
+    second: Esteira Spritesheet_9
+  - first:
+      213: 6365809186042223728
+    second: Esteira Spritesheet_10
+  - first:
+      213: 423538715316789238
+    second: Esteira Spritesheet_11
+  - first:
+      213: 1765634593822186185
+    second: Esteira Spritesheet_12
+  - first:
+      213: 6406353366483736234
+    second: Esteira Spritesheet_13
+  - first:
+      213: 1862603381831927570
+    second: Esteira Spritesheet_14
+  - first:
+      213: -5027565079430069359
+    second: Esteira Spritesheet_15
+  - first:
+      213: 854228127834017539
+    second: Esteira Spritesheet_16
+  - first:
+      213: -7803883059699817034
+    second: Esteira Spritesheet_17
+  - first:
+      213: -7266620351369581951
+    second: Esteira Spritesheet_18
+  - first:
+      213: 3841340091824499011
+    second: Esteira Spritesheet_19
+  - first:
+      213: -2315234561006528259
+    second: Esteira Spritesheet_20
+  - first:
+      213: 4365012027245163443
+    second: Esteira Spritesheet_21
+  - first:
+      213: -2637065286557606673
+    second: Esteira Spritesheet_22
+  - first:
+      213: 3850057510427477460
+    second: Esteira Spritesheet_23
+  - first:
+      213: 5953152906885761396
+    second: Esteira Spritesheet_24
+  - first:
+      213: 4203725539873801012
+    second: Esteira Spritesheet_25
+  - first:
+      213: -4420309555259225154
+    second: Esteira Spritesheet_26
+  - first:
+      213: -4875155081886716273
+    second: Esteira Spritesheet_27
+  - first:
+      213: 2792748601650888934
+    second: Esteira Spritesheet_28
+  - first:
+      213: 8549562319390353667
+    second: Esteira Spritesheet_29
+  - first:
+      213: 3962928592660255107
+    second: Esteira Spritesheet_30
+  - first:
+      213: -5363526869024378482
+    second: Esteira Spritesheet_31
+  - first:
+      213: 34763257272788571
+    second: Esteira Spritesheet_32
+  - first:
+      213: 4618046038406418136
+    second: Esteira Spritesheet_33
+  - first:
+      213: -1590622668727750051
+    second: Esteira Spritesheet_34
+  - first:
+      213: -2404765205679502454
+    second: Esteira Spritesheet_35
+  - first:
+      213: -3316914563915585171
+    second: Esteira Spritesheet_36
+  - first:
+      213: -5867050076122862366
+    second: Esteira Spritesheet_37
+  - first:
+      213: 7385292091374295578
+    second: Esteira Spritesheet_38
+  - first:
+      213: -2325986176261135377
+    second: Esteira Spritesheet_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Esteira Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1169
+        width: 1296
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbc54926ff79b820800000000000000
+      internalID: 2934517327439711219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1169
+        width: 1297
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888c99728a579ef10800000000000000
+      internalID: 2299498449828694152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 1169
+        width: 1295
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a259f2a8c3361c140800000000000000
+      internalID: 4738177394638034218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 4063
+        y: 1169
+        width: 1313
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e033e7108d6d1ef50800000000000000
+      internalID: 6909039526589379342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 5409
+        y: 1169
+        width: 1299
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecc5d93ba5c7f050800000000000000
+      internalID: 5834349181482159329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1003
+        width: 1298
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7f60154eed33140800000000000000
+      internalID: 4698343908470880238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1003
+        width: 1296
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654a023804ef1cda0800000000000000
+      internalID: -5926176081611545514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 1003
+        width: 1301
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa690a2cd62407e60800000000000000
+      internalID: 7957933580747839146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 4065
+        y: 1003
+        width: 1298
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b713310dbfda7df90800000000000000
+      internalID: -6928878204646903429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 5412
+        y: 1003
+        width: 1302
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b72acd20c4aba6e0800000000000000
+      internalID: -1825184078659704911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 880
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c17f92ab5e75850800000000000000
+      internalID: 6365809186042223728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 837
+        width: 1296
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff1513b736b0e500800000000000000
+      internalID: 423538715316789238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 837
+        width: 1299
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca99efee4bc08810800000000000000
+      internalID: 1765634593822186185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 837
+        width: 1292
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa614eac170f7e850800000000000000
+      internalID: 6406353366483736234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 837
+        width: 1292
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217888348eb49d910800000000000000
+      internalID: 1862603381831927570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 5412
+        y: 837
+        width: 1292
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193896b82308a3ab0800000000000000
+      internalID: -5027565079430069359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 671
+        width: 1292
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f81b4d4f3dadb00800000000000000
+      internalID: 854228127834017539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 671
+        width: 1292
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b567e534b903b390800000000000000
+      internalID: -7803883059699817034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 671
+        width: 1292
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18aedf66a47c72b90800000000000000
+      internalID: -7266620351369581951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 671
+        width: 1292
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3496aa2167e2f4530800000000000000
+      internalID: 3841340091824499011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 5412
+        y: 671
+        width: 1292
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df89f73fe62aedfd0800000000000000
+      internalID: -2315234561006528259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 505
+        width: 1292
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3714cdf43a39c30800000000000000
+      internalID: 4365012027245163443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 505
+        width: 1292
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec5839f713476bd0800000000000000
+      internalID: -2637065286557606673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2717
+        y: 505
+        width: 1303
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5cad148e62e6530800000000000000
+      internalID: 3850057510427477460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 505
+        width: 1292
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47982841709dd9250800000000000000
+      internalID: 5953152906885761396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 5412
+        y: 505
+        width: 1292
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4334a613b12a65a30800000000000000
+      internalID: 4203725539873801012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 339
+        width: 1292
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb428911e7e7a2c0800000000000000
+      internalID: -4420309555259225154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 339
+        width: 1292
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ea33f5848f75cb0800000000000000
+      internalID: -4875155081886716273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 339
+        width: 1292
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0ce5c7e06d1c620800000000000000
+      internalID: 2792748601650888934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 339
+        width: 1292
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309a358c1a526a670800000000000000
+      internalID: 8549562319390353667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 5412
+        y: 339
+        width: 1292
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381d0cbfe862ff630800000000000000
+      internalID: 3962928592660255107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 173
+        width: 1292
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81f984dabce095b0800000000000000
+      internalID: -5363526869024378482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 173
+        width: 1292
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56eaf09ff08b7000800000000000000
+      internalID: 34763257272788571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 173
+        width: 1292
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de4d9b8768961040800000000000000
+      internalID: 4618046038406418136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 173
+        width: 1292
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d527cca3c19fce9e0800000000000000
+      internalID: -1590622668727750051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 5412
+        y: 173
+        width: 1292
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b014359ce80aed0800000000000000
+      internalID: -2404765205679502454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 7
+        width: 1292
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69ed7327c3f7f1d0800000000000000
+      internalID: -3316914563915585171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 7
+        width: 1292
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eca44d6a0d049ea0800000000000000
+      internalID: -5867050076122862366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 7
+        width: 1292
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1addd43704dd7660800000000000000
+      internalID: 7385292091374295578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Esteira Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 7
+        width: 1292
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe36c7375ef68bfd0800000000000000
+      internalID: -2325986176261135377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
