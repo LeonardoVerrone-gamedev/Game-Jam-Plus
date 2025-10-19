@@ -19,7 +19,7 @@ public class InteractSystem : MonoBehaviour
     [Header("Item")]
     public ItemSO item;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         PlayerMovement player = other.GetComponent<PlayerMovement>();
         if (player != null)

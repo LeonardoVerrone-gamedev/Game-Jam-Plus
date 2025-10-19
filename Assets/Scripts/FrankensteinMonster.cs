@@ -20,6 +20,7 @@ public class FrankensteinMonster : MonoBehaviour
     public SpriteRenderer brainRenderer;
     public SpriteRenderer leftLegRenderer;
     public SpriteRenderer rightLegRenderer;
+    [SerializeField] ScratchAndStretch squash;
 
     [Header("FIre")]
     public bool OnFire;
@@ -32,6 +33,7 @@ public class FrankensteinMonster : MonoBehaviour
     void Start()
     {
         InitializeMissingParts(UnityEngine.Random.Range(1, 4));
+        squash.PlayStretchAnimation("FrankEnter");
         StartRandomFire();
     }
 

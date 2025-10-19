@@ -5399,6 +5399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6103068040388725122}
+  - component: {fileID: 3244857611326094122}
   m_Layer: 7
   m_Name: HenderHolder
   m_TagString: Untagged
@@ -5427,6 +5428,22 @@ Transform:
   - {fileID: 6216833657439105540}
   m_Father: {fileID: 5786361438685204693}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3244857611326094122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5066728533792971702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddd337a47528e4eb71afdd41fd1964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patterns:
+  - {fileID: 11400000, guid: 9335f77af27e4544a919fc824e9ef6bc, type: 2}
+  originalScale: {x: 0.5, y: 0.5, z: 0.5}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &5116291628587878028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5662,6 +5679,7 @@ MonoBehaviour:
   brainRenderer: {fileID: 8568307703723218974}
   leftLegRenderer: {fileID: 5986394626706629562}
   rightLegRenderer: {fileID: 1322195788989462378}
+  squash: {fileID: 3244857611326094122}
   OnFire: 0
   minStartFireTime: 0.5
   maxStartFireTime: 45
