@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 329e306fc7420ce45bc3313f288cc733
+guid: 3d821df16cbd82145832400bdc6de9a6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -488546214845746696
-    second: "tela de op\xE7\xF5es icone cursor_0"
+      213: 7131025115764928884
+    second: JOYSTICK_0
+  - first:
+      213: -7645997509834653186
+    second: JOYSTICK_1
+  - first:
+      213: -3942279613836572925
+    second: JOYSTICK_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +106,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "tela de op\xE7\xF5es icone cursor_0"
+      name: JOYSTICK_0
       rect:
         serializedVersion: 2
-        x: 725
-        y: 368
-        width: 109
+        x: 377
+        y: 280
+        width: 139
         height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f1f1c75ec55839f0800000000000000
-      internalID: -488546214845746696
+      spriteID: 471be8d9f8d76f260800000000000000
+      internalID: 7131025115764928884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JOYSTICK_1
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 310
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1c8c866c5f3e590800000000000000
+      internalID: -7645997509834653186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JOYSTICK_2
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 310
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307c10c04953a49c0800000000000000
+      internalID: -3942279613836572925
       vertices: []
       indices: 
       edges: []
@@ -134,8 +184,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "tela de op\xE7\xF5es icone cursor_0": -488546214845746696
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

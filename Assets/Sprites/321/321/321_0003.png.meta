@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 329e306fc7420ce45bc3313f288cc733
+guid: 516e5826d293c344d9d97fba3eea37f6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -488546214845746696
-    second: "tela de op\xE7\xF5es icone cursor_0"
+      213: 5040227560847229543
+    second: 321_0003_0
+  - first:
+      213: -1681803049946282443
+    second: 321_0003_1
+  - first:
+      213: 3357786430820925076
+    second: 321_0003_2
+  - first:
+      213: -3879387885845872349
+    second: 321_0003_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "tela de op\xE7\xF5es icone cursor_0"
+      name: 321_0003_0
       rect:
         serializedVersion: 2
-        x: 725
-        y: 368
-        width: 109
-        height: 139
+        x: 669
+        y: 586
+        width: 289
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f1f1c75ec55839f0800000000000000
-      internalID: -488546214845746696
+      spriteID: 762ce67234c72f540800000000000000
+      internalID: 5040227560847229543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 321_0003_1
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 656
+        width: 110
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53688c1690909a8e0800000000000000
+      internalID: -1681803049946282443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 321_0003_2
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 275
+        width: 199
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e35b0f7f0499e20800000000000000
+      internalID: 3357786430820925076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 321_0003_3
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 314
+        width: 199
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321043e8545a92ac0800000000000000
+      internalID: -3879387885845872349
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "tela de op\xE7\xF5es icone cursor_0": -488546214845746696
+      321_0003_0: 5040227560847229543
+      321_0003_1: -1681803049946282443
+      321_0003_2: 3357786430820925076
+      321_0003_3: -3879387885845872349
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

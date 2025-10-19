@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      opcoestela_0: 3912484926848937603
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
