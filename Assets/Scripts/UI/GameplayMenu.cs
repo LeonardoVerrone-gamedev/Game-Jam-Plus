@@ -17,6 +17,9 @@ public class GameplayMenu : MonoBehaviour
     [SerializeField] TextMeshProUGUI timerInGameOverScreen;
     [SerializeField] TextMeshProUGUI finalScoreInGameOverScreen;
 
+    [SerializeField] Image[] healthImages;
+    [SerializeField] Sprite healthIcon;
+
     
     void Start()
     {
@@ -36,12 +39,29 @@ public class GameplayMenu : MonoBehaviour
         timer.text = $"{minutes:00}:{seconds:00}";
 
         score.text = gameManager.score.ToString();
+
+        UpdateLife();
     }
-    
+
     public void SetGameOverScreen()
     {
         GameOverCanvas.gameObject.SetActive(true);
         timerInGameOverScreen.text = gameManager.surviveTime.ToString("0:00");
         finalScoreInGameOverScreen.text = gameManager.score.ToString();
+    }
+    
+    public void UpdateLife()
+    {
+        for(int i = 0; i < 3; i++)
+        {
+            if(i < gameManager.life)
+            {
+                healthImages[i].sprite = healthIcon;
+            }
+            else
+            {
+                healthImages[i].sprite = null;
+            }
+        }
     }
 }
