@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 19464a17ea1f62c44a49c0a80bdabcff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2295756315634780376
+    second: fogo_0
+  - first:
+      213: -794899871583071607
+    second: fogo_1
+  - first:
+      213: 4088836924783256780
+    second: fogo_2
+  - first:
+      213: 6805162215181110693
+    second: fogo_3
+  - first:
+      213: 2136723675873685658
+    second: fogo_4
+  - first:
+      213: -2566810815423957821
+    second: fogo_5
+  - first:
+      213: 7738235976839175042
+    second: fogo_6
+  - first:
+      213: -1753919576304305158
+    second: fogo_7
+  - first:
+      213: 1944008681991718475
+    second: fogo_8
+  - first:
+      213: 6976567661763227026
+    second: fogo_9
+  - first:
+      213: -3556659652500253238
+    second: fogo_10
+  - first:
+      213: 1620872728252854247
+    second: fogo_11
+  - first:
+      213: -4963858556067394706
+    second: fogo_12
+  - first:
+      213: 119554580854539291
+    second: fogo_13
+  - first:
+      213: 4138319129348441161
+    second: fogo_14
+  - first:
+      213: -447698688178516075
+    second: fogo_15
+  - first:
+      213: 7460721674509891406
+    second: fogo_16
+  - first:
+      213: -1606585509139794529
+    second: fogo_17
+  - first:
+      213: 5503106216239657763
+    second: fogo_18
+  - first:
+      213: -8322977531913659222
+    second: fogo_19
+  - first:
+      213: -1354405382253252018
+    second: fogo_20
+  - first:
+      213: -6461990415072185325
+    second: fogo_21
+  - first:
+      213: 2889828182428596323
+    second: fogo_22
+  - first:
+      213: 362397541748895841
+    second: fogo_23
+  - first:
+      213: -2773878805963656249
+    second: fogo_24
+  - first:
+      213: 1462954730791354588
+    second: fogo_25
+  - first:
+      213: 9039304511489135180
+    second: fogo_26
+  - first:
+      213: 2955434585508951308
+    second: fogo_27
+  - first:
+      213: 7685067744086994216
+    second: fogo_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fogo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1353
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60e4d5c236724447afbc01e1e226def
+      internalID: 1806661715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1353
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1feda49e37eb504bb060f4fdff46c3e
+      internalID: 2063764256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1353
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d710912c25232341aae0be748a96903
+      internalID: 1922135207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_3
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1353
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0931b95505ea9df46a6761c7c78fd84f
+      internalID: -1748898030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_4
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1353
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f684427621f34d46bbc8c8a295203e5
+      internalID: -2035382883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 906
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c682ef9d8e1024692cc51d6069205c
+      internalID: -1235007505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_6
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 906
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d96cba54ab5cdb46a95a4a8cf21422c
+      internalID: 1502046817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_7
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 906
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169eb51b035244d48b0a1d8194646489
+      internalID: 925724740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_8
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 906
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684c9a41cd6beec41a7df59e45d2bf29
+      internalID: -1720205797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_9
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 906
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5524e944d4a668f45b4e2fd1262e1f67
+      internalID: -237707161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 459
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048d30e1ab4c588468000915e7e3bd8e
+      internalID: 1076777178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 459
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e632f993ba1eb49b1d04d2489526be
+      internalID: 318624900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_12
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 459
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c54cc2d8765aa4ba342fe4e1bec831
+      internalID: -1840651937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_13
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 459
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b4f92664703aa4497c7e3ed7e66178
+      internalID: 1447314799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_14
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 459
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1596f21cf5f79f47b6748c56b77eda1
+      internalID: 1953379575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fogo_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 800
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8923a7d2ba599c4eabf5d6ee6a42dec
+      internalID: 176289177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: babe0f9e435d926478d571b92312218b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fogo_0: 1806661715
+      fogo_1: 2063764256
+      fogo_10: 1076777178
+      fogo_11: 318624900
+      fogo_12: -1840651937
+      fogo_13: 1447314799
+      fogo_14: 1953379575
+      fogo_15: 176289177
+      fogo_2: 1922135207
+      fogo_3: -1748898030
+      fogo_4: -2035382883
+      fogo_5: -1235007505
+      fogo_6: 1502046817
+      fogo_7: 925724740
+      fogo_8: -1720205797
+      fogo_9: -237707161
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
