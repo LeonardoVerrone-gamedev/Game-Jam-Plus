@@ -160,7 +160,7 @@ public class FrankensteinMonster : MonoBehaviour
         }
 
         var emission = fireParticles.emission;
-        emission.rateOverTime = 5f;
+        emission.rateOverTime = 10f;
 
         OnFire = true;
         HasBeenSetOnFireOnce = true;
