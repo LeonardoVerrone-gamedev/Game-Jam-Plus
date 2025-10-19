@@ -381,7 +381,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 551072327}
         m_TargetAssemblyTypeName: StartScreenUIScript, Assembly-CSharp
-        m_MethodName: StartGame
+        m_MethodName: StartTutorial
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -19,6 +19,11 @@ public class StartScreenUIScript : MonoBehaviour
         obj.gameObject.SetActive(value);
     }
 
+    public void StartTutorial()
+    {
+        SceneManager.LoadScene("Controles", LoadSceneMode.Single);
+    }
+
     public void QUIT_GAME()
     {
 #if UNITY_EDITOR
