@@ -13,13 +13,19 @@ public class FrankensteinMonster : MonoBehaviour
     
     [Header("Missing Parts")]
     public List<FrankensteinPartType> missingParts = new List<FrankensteinPartType>();
-    
+
     [Header("Visual")]
     public SpriteRenderer leftArmRenderer;
+    [SerializeField] ScratchAndStretch leftArmScratch;
     public SpriteRenderer rightArmRenderer;
+    [SerializeField] ScratchAndStretch rightArmScratch;
     public SpriteRenderer brainRenderer;
+    [SerializeField] ScratchAndStretch brainScratch;
     public SpriteRenderer leftLegRenderer;
+    [SerializeField] ScratchAndStretch leftLegScratch;
     public SpriteRenderer rightLegRenderer;
+    [SerializeField] ScratchAndStretch rightLegScratch;
+
     [SerializeField] ScratchAndStretch squash;
 
     [Header("FIre")]
@@ -96,22 +102,27 @@ public class FrankensteinMonster : MonoBehaviour
             case FrankensteinPartType.leftArm:
                 leftArm = part;
                 leftArmRenderer.sprite = part.partSprite;
+                leftArmScratch.PlayStretchAnimation("PartPlacePattern");
                 break;
             case FrankensteinPartType.rightArm:
                 rightArm = part;
                 rightArmRenderer.sprite = part.partSprite;
+                rightArmScratch.PlayStretchAnimation("PartPlacePattern");
                 break;
             case FrankensteinPartType.Brain:
                 brain = part;
                 brainRenderer.sprite = part.partSprite;
+                brainScratch.PlayStretchAnimation("PartPlacePattern");
                 break;
             case FrankensteinPartType.leftLeg:
                 leftLeg = part;
                 leftLegRenderer.sprite = part.partSprite;
+                leftLegScratch.PlayStretchAnimation("PartPlacePattern");
                 break;
             case FrankensteinPartType.rightLeg:
                 rightLeg = part;
                 rightLegRenderer.sprite = part.partSprite;
+                rightLegScratch.PlayStretchAnimation("PartPlacePattern");
                 break;
         }
         

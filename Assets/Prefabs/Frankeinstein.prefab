@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6216833657439105540}
   - component: {fileID: 8568307703723218974}
+  - component: {fileID: 8448810652360934522}
   m_Layer: 0
   m_Name: C
   m_TagString: Untagged
@@ -87,6 +88,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8448810652360934522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117251956269138516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddd337a47528e4eb71afdd41fd1964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patterns:
+  - {fileID: 11400000, guid: eecc181f53e28e440841dd4bc770c773, type: 2}
+  originalScale: {x: 1, y: 1, z: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1160959702992712000
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,6 +114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7933072858945948004}
   - component: {fileID: 1322195788989462378}
+  - component: {fileID: 5114164995501051153}
   m_Layer: 0
   m_Name: PD
   m_TagString: Untagged
@@ -174,6 +192,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5114164995501051153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1160959702992712000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddd337a47528e4eb71afdd41fd1964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patterns:
+  - {fileID: 11400000, guid: eecc181f53e28e440841dd4bc770c773, type: 2}
+  originalScale: {x: 1, y: 1, z: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1775967979673790593
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,6 +305,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6675000167685628555}
   - component: {fileID: 2843390837564033085}
+  - component: {fileID: 6280606107148137702}
   m_Layer: 0
   m_Name: BE
   m_TagString: Untagged
@@ -348,6 +383,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6280606107148137702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2948793975777227455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddd337a47528e4eb71afdd41fd1964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patterns:
+  - {fileID: 11400000, guid: eecc181f53e28e440841dd4bc770c773, type: 2}
+  originalScale: {x: 1, y: 1, z: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &3168081228108871017
 GameObject:
   m_ObjectHideFlags: 0
@@ -5313,6 +5364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2420979835111228071}
   - component: {fileID: 7312557761034612657}
+  - component: {fileID: 7014977282069858254}
   m_Layer: 0
   m_Name: BD
   m_TagString: Untagged
@@ -5390,6 +5442,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7014977282069858254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5038702707868728890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddd337a47528e4eb71afdd41fd1964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patterns:
+  - {fileID: 11400000, guid: eecc181f53e28e440841dd4bc770c773, type: 2}
+  originalScale: {x: 1, y: 1, z: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &5066728533792971702
 GameObject:
   m_ObjectHideFlags: 0
@@ -5455,6 +5523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6402338936891412865}
   - component: {fileID: 5986394626706629562}
+  - component: {fileID: 4119561074212674751}
   m_Layer: 0
   m_Name: PE
   m_TagString: Untagged
@@ -5532,6 +5601,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4119561074212674751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5116291628587878028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddd337a47528e4eb71afdd41fd1964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patterns:
+  - {fileID: 11400000, guid: eecc181f53e28e440841dd4bc770c773, type: 2}
+  originalScale: {x: 1, y: 1, z: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &5549991681395448369
 GameObject:
   m_ObjectHideFlags: 0
@@ -5542,6 +5627,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4637257550353138577}
   - component: {fileID: 6766924245855275873}
+  - component: {fileID: 5085501800913432163}
   m_Layer: 0
   m_Name: T
   m_TagString: Untagged
@@ -5619,6 +5705,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5085501800913432163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5549991681395448369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddddd337a47528e4eb71afdd41fd1964, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patterns:
+  - {fileID: 11400000, guid: eecc181f53e28e440841dd4bc770c773, type: 2}
+  originalScale: {x: 1, y: 1, z: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &8091074205059979989
 GameObject:
   m_ObjectHideFlags: 0
@@ -5676,10 +5778,15 @@ MonoBehaviour:
   rightLeg: {fileID: 11400000, guid: b13f2de1a84210b4e935fbcaf0e34a43, type: 2}
   missingParts: 
   leftArmRenderer: {fileID: 2843390837564033085}
+  leftArmScratch: {fileID: 6280606107148137702}
   rightArmRenderer: {fileID: 7312557761034612657}
+  rightArmScratch: {fileID: 7014977282069858254}
   brainRenderer: {fileID: 8568307703723218974}
+  brainScratch: {fileID: 8448810652360934522}
   leftLegRenderer: {fileID: 5986394626706629562}
+  leftLegScratch: {fileID: 4119561074212674751}
   rightLegRenderer: {fileID: 1322195788989462378}
+  rightLegScratch: {fileID: 5114164995501051153}
   squash: {fileID: 3244857611326094122}
   OnFire: 0
   minStartFireTime: 0.5

@@ -2808,7 +2808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trademill: {fileID: 1661222330}
   MonsterPrefab: {fileID: 8091074205059979989, guid: 88976328fc85fc84b96809ddd7b77e44, type: 3}
-  objectDistance: 10
+  objectDistance: 5
   spawnTimer: 0
   spawnPos: {fileID: 861441039}
 --- !u!1 &905493840
