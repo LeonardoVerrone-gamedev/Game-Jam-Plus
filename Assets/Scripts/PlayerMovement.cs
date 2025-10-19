@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
 
     void ReleaseItem()
     {
-        if(inventory.currentItem.Type == ItemSO.ItemType.FrankeinsteinPart)
+        if (inventory.currentItem.Type == ItemSO.ItemType.FrankeinsteinPart)
         {
             FrankensteinPartSO _part = inventory.currentItem.FrankensteinPartSO;
             FrankensteinPartType part = _part.partType;
@@ -84,12 +84,11 @@ public class PlayerMovement : MonoBehaviour
             {
                 Instantiate(brainDropPrefab, holdingObjectRender.transform.position, Quaternion.identity);
             }
-            
-            itemAudioSource.clip = dropItemClip;
-            itemAudioSource.Play();
-
-            inventory.RemovePart();
         }
+        
+        itemAudioSource.clip = dropItemClip;
+        itemAudioSource.Play();
+        inventory.RemovePart();
     }
     
     public void SetCurrentInteractable(InteractSystem interactable)
