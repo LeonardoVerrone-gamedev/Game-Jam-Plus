@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: 0fc16466ef3f4e746ac8b40e2b49983b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6504747140129713950
+    second: FrenteWalkC_0
+  - first:
+      213: 3418998149221926843
+    second: FrenteWalkC_1
+  - first:
+      213: -2357099310296920754
+    second: FrenteWalkC_2
+  - first:
+      213: -8167036009957628159
+    second: FrenteWalkC_3
+  - first:
+      213: 1714188940197160230
+    second: FrenteWalkC_4
+  - first:
+      213: 1649487944140344397
+    second: FrenteWalkC_5
+  - first:
+      213: -6283545079694051424
+    second: FrenteWalkC_6
+  - first:
+      213: -7627000769068213337
+    second: FrenteWalkC_7
+  - first:
+      213: -4753838892903054619
+    second: FrenteWalkC_8
+  - first:
+      213: 2718733007978720886
+    second: FrenteWalkC_9
+  - first:
+      213: 6104670615107597365
+    second: FrenteWalkC_10
+  - first:
+      213: -7615058411668435921
+    second: FrenteWalkC_11
+  - first:
+      213: 3174935788735455046
+    second: FrenteWalkC_12
+  - first:
+      213: 288667055895605217
+    second: FrenteWalkC_13
+  - first:
+      213: -7781915920837319171
+    second: FrenteWalkC_14
+  - first:
+      213: 1221115865398295501
+    second: FrenteWalkC_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FrenteWalkC_0
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1387
+        width: 163
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f6b217f01854a50800000000000000
+      internalID: 6504747140129713950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_1
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1388
+        width: 164
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7471cb3b8b27f20800000000000000
+      internalID: 3418998149221926843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_2
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 1388
+        width: 164
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d0f6d6aa6e94fd0800000000000000
+      internalID: -2357099310296920754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_3
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 1395
+        width: 164
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107e6ae050cd8ae80800000000000000
+      internalID: -8167036009957628159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_4
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 1395
+        width: 164
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625ea5a42c50ac710800000000000000
+      internalID: 1714188940197160230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 944
+        width: 165
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c46cbbb8824e610800000000000000
+      internalID: 1649487944140344397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_6
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 944
+        width: 165
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7beaaaa0d5cc8a0800000000000000
+      internalID: -6283545079694051424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_7
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 940
+        width: 166
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abde0ac533772690800000000000000
+      internalID: -7627000769068213337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_8
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 937
+        width: 167
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2c31db6b8f60eb0800000000000000
+      internalID: -4753838892903054619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_9
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 940
+        width: 165
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e63bb2441eab520800000000000000
+      internalID: 2718733007978720886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_10
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 490
+        width: 165
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534f04c949528b450800000000000000
+      internalID: 6104670615107597365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_11
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 490
+        width: 165
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c07ac88b0e15690800000000000000
+      internalID: -7615058411668435921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_12
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 492
+        width: 165
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f50404743af0c20800000000000000
+      internalID: 3174935788735455046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_13
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 491
+        width: 165
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efe30d682d810400800000000000000
+      internalID: 288667055895605217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_14
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 491
+        width: 165
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5e88a43b4110490800000000000000
+      internalID: -7781915920837319171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FrenteWalkC_15
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 40
+        width: 166
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbb8aae86642f010800000000000000
+      internalID: 1221115865398295501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
