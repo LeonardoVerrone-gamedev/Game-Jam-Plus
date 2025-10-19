@@ -4,12 +4,17 @@ public class PlayerInventory : MonoBehaviour
 {
     [Header("Current Item")]
     public ItemSO currentItem;
+
+    [SerializeField] AudioSource itemAudioSource;
+    [SerializeField] AudioClip takeItemClip;
     
     public bool AddPart(ItemSO part)
     {
         if (part != null && currentItem == null)
         {
             currentItem = part;
+            itemAudioSource.clip = takeItemClip;
+            itemAudioSource.Play();
             Debug.Log($"Pegou: {part.ItemName}");
             return true;
         }

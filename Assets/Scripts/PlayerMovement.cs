@@ -23,6 +23,9 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] AudioSource audioSource;
 
+    [SerializeField] AudioSource itemAudioSource;
+    [SerializeField] AudioClip dropItemClip;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -54,6 +57,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (context.started)
         {
+            itemAudioSource.clip = dropItemClip;
+            itemAudioSource.Play();
             inventory.RemovePart();
         }
     }
