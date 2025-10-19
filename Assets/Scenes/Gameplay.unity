@@ -3814,33 +3814,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1586630013 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7386430153065609157, guid: 6526628e85e41fa4ca75c588ff70470d, type: 3}
-  m_PrefabInstance: {fileID: 6630246551280641876}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1586630021
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1586630013}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 31153789a7d3a1f4aa447f6f7a39ae14, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1596473229
 GameObject:
   m_ObjectHideFlags: 0
@@ -6548,22 +6521,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3511329069260470354, guid: 6526628e85e41fa4ca75c588ff70470d, type: 3}
-      propertyPath: moveSpeed
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846954533115788846, guid: 6526628e85e41fa4ca75c588ff70470d, type: 3}
-      propertyPath: m_ForceSendLayers.m_Bits
-      value: 119
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846954533115788846, guid: 6526628e85e41fa4ca75c588ff70470d, type: 3}
-      propertyPath: m_ForceReceiveLayers.m_Bits
-      value: 119
-      objectReference: {fileID: 0}
-    - target: {fileID: 6654429925265164051, guid: 6526628e85e41fa4ca75c588ff70470d, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 1341877325474041833, guid: eaa6591a5a22fd144a622fa50e13335c, type: 3}
     - target: {fileID: 7386430153065609157, guid: 6526628e85e41fa4ca75c588ff70470d, type: 3}
       propertyPath: m_Name
       value: Player
@@ -6571,10 +6528,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7386430153065609157, guid: 6526628e85e41fa4ca75c588ff70470d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1586630021}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6526628e85e41fa4ca75c588ff70470d, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

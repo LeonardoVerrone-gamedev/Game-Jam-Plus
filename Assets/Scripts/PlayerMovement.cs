@@ -14,7 +14,9 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Sistema de Interação")]
     [SerializeField]private InteractSystem currentInteractable;
-    [SerializeField]public PlayerInventory inventory;
+    [SerializeField] public PlayerInventory inventory;
+    bool isHoldingSomething;
+    [SerializeField] SpriteRenderer holdingObjectRender;
 
     void Start()
     {
@@ -61,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
     private void ProcessMovement()
     {
         movement = rawInput;
-        
+
         if (movement.magnitude > 1f)
         {
             movement = movement.normalized;
@@ -71,8 +73,8 @@ public class PlayerMovement : MonoBehaviour
         {
             movement = Vector2.zero;
         }
-        
-        if(movement != Vector2.zero)
+
+        if (movement != Vector2.zero)
         {
             last_movement = movement;
         }
@@ -81,6 +83,21 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("Horizontal", last_movement.x);
         anim.SetFloat("Vertical", last_movement.y);
         anim.SetFloat("Move", movement.magnitude);
+    }
+    
+    void Update()
+    {
+        isHoldingSomething = inventory.currentItem != null;
+        anim.SetBool("Segurando", isHoldingSomething);
+
+        if (isHoldingSomething)
+        {
+            holdingObjectRender.sprite = inventory.currentItem.holdingSprite;
+        }
+        else
+        {
+            holdingObjectRender.sprite = null;
+        }
     }
 
     void FixedUpdate()

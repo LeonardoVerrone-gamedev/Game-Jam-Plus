@@ -8,6 +8,8 @@ public class ItemSO : ScriptableObject
     public enum ItemType { FrankeinsteinPart, ExtintorDeFogo };
     public ItemType Type;
 
+    public Sprite holdingSprite;
+
     [Header("Frankenstein Part")]
     public FrankensteinPartSO FrankensteinPartSO;
 }
@@ -20,7 +22,11 @@ public class ItemSOEditor : UnityEditor.Editor
     {
         var item = (ItemSO)target;
 
-        // Desenha o tipo primeiro
+        // Desenha as propriedades que sempre aparecem
+        item.ItemName = UnityEditor.EditorGUILayout.TextField("Item Name", item.ItemName);
+        item.holdingSprite = (Sprite)UnityEditor.EditorGUILayout.ObjectField("Holding Sprite", item.holdingSprite, typeof(Sprite), false);
+
+        // Desenha o tipo
         item.Type = (ItemSO.ItemType)UnityEditor.EditorGUILayout.EnumPopup("Type", item.Type);
 
         // Mostra as propriedades baseado no tipo

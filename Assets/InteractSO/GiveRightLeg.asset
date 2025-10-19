@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8387d8d3c71eee441bf414a1ef608b5d, type: 3}
   m_Name: GiveRightLeg
   m_EditorClassIdentifier: 
-  ItemName: 
+  ItemName: RightLeg
   Type: 0
+  holdingSprite: {fileID: 8552039310817403890, guid: 60fb4bca2aaa15c40b99c655ce662618, type: 3}
   FrankensteinPartSO: {fileID: 11400000, guid: b13f2de1a84210b4e935fbcaf0e34a43, type: 2}

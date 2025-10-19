@@ -8,4 +8,5 @@ public class FrankensteinPartSO : ScriptableObject
     public Sprite partSprite;
     public int qualityScore = 1; // Para pontuação ou qualidade da parte
     public AudioClip attachSound;
+
 }

@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 169a91f3f9014cd469ad6468b01f746d
+guid: c43febf7e30dc3146b0cda6017fe4227
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8902085308911056958
-    second: WalkBack_0
+      213: -1535030105988739560
+    second: direitasegurando_0
   - first:
-      213: -2037991182235541006
-    second: WalkBack_1
+      213: 8674707340801749549
+    second: direitasegurando_1
   - first:
-      213: -5717688701713937607
-    second: WalkBack_2
+      213: 600584118137614794
+    second: direitasegurando_2
   - first:
-      213: 8149656895999264185
-    second: WalkBack_3
+      213: 7849482241771199350
+    second: direitasegurando_3
   - first:
-      213: -1079926672931870984
-    second: WalkBack_4
+      213: -5467041441673066976
+    second: direitasegurando_4
   - first:
-      213: 3477396209057934131
-    second: WalkBack_5
+      213: 3548740111137189127
+    second: direitasegurando_5
   - first:
-      213: -8467925914938719458
-    second: WalkBack_6
+      213: -5536916853665699640
+    second: direitasegurando_6
   - first:
-      213: 2253765444804793852
-    second: WalkBack_7
+      213: 3967783237925643947
+    second: direitasegurando_7
   - first:
-      213: -5618938018417103340
-    second: WalkBack_8
+      213: 6442379612541105001
+    second: direitasegurando_8
   - first:
-      213: 4675185681545177256
-    second: WalkBack_9
+      213: -2054918495195813762
+    second: direitasegurando_9
   - first:
-      213: -2601601443875522698
-    second: WalkBack_10
+      213: 7973279044081474462
+    second: direitasegurando_10
   - first:
-      213: 7175090174004684155
-    second: WalkBack_11
+      213: 4140532774975223167
+    second: direitasegurando_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,19 +117,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 12
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -144,6 +131,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -172,13 +172,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkBack_0
+      name: direitasegurando_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 898
-        width: 345
-        height: 449
+        x: 326
+        y: 920
+        width: 157
+        height: 371
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e38fdd55c6f8a8b70800000000000000
-      internalID: 8902085308911056958
+      spriteID: 81ec205604a72bae0800000000000000
+      internalID: -1535030105988739560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_1
+      name: direitasegurando_1
       rect:
         serializedVersion: 2
-        x: 345
-        y: 898
-        width: 345
-        height: 449
+        x: 1127
+        y: 920
+        width: 157
+        height: 378
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f1e87741d997b3e0800000000000000
-      internalID: -2037991182235541006
+      spriteID: d2236faad50c26870800000000000000
+      internalID: 8674707340801749549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_2
+      name: direitasegurando_2
       rect:
         serializedVersion: 2
-        x: 690
-        y: 898
-        width: 345
-        height: 449
+        x: 1930
+        y: 919
+        width: 157
+        height: 386
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93b831e5b60b6a0b0800000000000000
-      internalID: -5717688701713937607
+      spriteID: ac1755bc214b55800800000000000000
+      internalID: 600584118137614794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_3
+      name: direitasegurando_3
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 898
-        width: 345
-        height: 449
+        x: 2730
+        y: 918
+        width: 157
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b54957a4c5691170800000000000000
-      internalID: 8149656895999264185
+      spriteID: 67b5283b286feec60800000000000000
+      internalID: 7849482241771199350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_4
+      name: direitasegurando_4
       rect:
         serializedVersion: 2
-        x: 1380
-        y: 898
-        width: 345
-        height: 449
+        x: 3526
+        y: 913
+        width: 163
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f62d64a9645301f0800000000000000
-      internalID: -1079926672931870984
+      spriteID: 026ccb046ca2124b0800000000000000
+      internalID: -5467041441673066976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_5
+      name: direitasegurando_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 449
-        width: 345
-        height: 449
+        x: 326
+        y: 470
+        width: 157
+        height: 371
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,20 +297,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33b20389d61324030800000000000000
-      internalID: 3477396209057934131
+      spriteID: 70d238c3458af3130800000000000000
+      internalID: 3548740111137189127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_6
+      name: direitasegurando_6
       rect:
         serializedVersion: 2
-        x: 345
-        y: 449
-        width: 345
-        height: 449
+        x: 1127
+        y: 470
+        width: 157
+        height: 378
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e13c0cfce32eb7a80800000000000000
-      internalID: -8467925914938719458
+      spriteID: 8c8e16a157be823b0800000000000000
+      internalID: -5536916853665699640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_7
+      name: direitasegurando_7
       rect:
         serializedVersion: 2
-        x: 690
-        y: 449
-        width: 345
-        height: 449
+        x: 1930
+        y: 470
+        width: 157
+        height: 385
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,20 +341,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf5d3a82bbbf64f10800000000000000
-      internalID: 2253765444804793852
+      spriteID: ba6ae4a25d5601730800000000000000
+      internalID: 3967783237925643947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_8
+      name: direitasegurando_8
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 449
-        width: 345
-        height: 449
+        x: 2730
+        y: 470
+        width: 157
+        height: 385
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,20 +363,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41eaf4584a58502b0800000000000000
-      internalID: -5618938018417103340
+      spriteID: 9633bb9df1ee76950800000000000000
+      internalID: 6442379612541105001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_9
+      name: direitasegurando_9
       rect:
         serializedVersion: 2
-        x: 1380
-        y: 449
-        width: 345
-        height: 449
+        x: 3530
+        y: 468
+        width: 157
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,20 +385,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a82e7f6b9891e040800000000000000
-      internalID: 4675185681545177256
+      spriteID: e78297b14867b73e0800000000000000
+      internalID: -2054918495195813762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_10
+      name: direitasegurando_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 345
-        height: 449
+        x: 324
+        y: 18
+        width: 165
+        height: 374
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,20 +407,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 677f7aa454145ebd0800000000000000
-      internalID: -2601601443875522698
+      spriteID: e9bda8ddb07c6ae60800000000000000
+      internalID: 7973279044081474462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_11
+      name: direitasegurando_11
       rect:
         serializedVersion: 2
-        x: 345
-        y: 0
-        width: 345
-        height: 449
+        x: 1124
+        y: 18
+        width: 165
+        height: 374
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -429,8 +429,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b75e1fc7f7a039360800000000000000
-      internalID: 7175090174004684155
+      spriteID: f75b2411f90267930800000000000000
+      internalID: 4140532774975223167
       vertices: []
       indices: 
       edges: []
@@ -439,7 +439,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 311c2a2ab2198c644a4c6c47d604c287
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -449,18 +449,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WalkBack_0: 8902085308911056958
-      WalkBack_1: -2037991182235541006
-      WalkBack_10: -2601601443875522698
-      WalkBack_11: 7175090174004684155
-      WalkBack_2: -5717688701713937607
-      WalkBack_3: 8149656895999264185
-      WalkBack_4: -1079926672931870984
-      WalkBack_5: 3477396209057934131
-      WalkBack_6: -8467925914938719458
-      WalkBack_7: 2253765444804793852
-      WalkBack_8: -5618938018417103340
-      WalkBack_9: 4675185681545177256
+      direitasegurando_0: -1535030105988739560
+      direitasegurando_1: 8674707340801749549
+      direitasegurando_10: 7973279044081474462
+      direitasegurando_11: 4140532774975223167
+      direitasegurando_2: 600584118137614794
+      direitasegurando_3: 7849482241771199350
+      direitasegurando_4: -5467041441673066976
+      direitasegurando_5: 3548740111137189127
+      direitasegurando_6: -5536916853665699640
+      direitasegurando_7: 3967783237925643947
+      direitasegurando_8: 6442379612541105001
+      direitasegurando_9: -2054918495195813762
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

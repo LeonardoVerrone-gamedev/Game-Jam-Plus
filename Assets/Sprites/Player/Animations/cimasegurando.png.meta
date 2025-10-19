@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 169a91f3f9014cd469ad6468b01f746d
+guid: b0dbb0a31c359914bb775855258ebc01
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8902085308911056958
-    second: WalkBack_0
+      213: -8760577059417360920
+    second: cimasegurando_0
   - first:
-      213: -2037991182235541006
-    second: WalkBack_1
+      213: -6458788230747144813
+    second: cimasegurando_1
   - first:
-      213: -5717688701713937607
-    second: WalkBack_2
+      213: 130337980147464648
+    second: cimasegurando_2
   - first:
-      213: 8149656895999264185
-    second: WalkBack_3
+      213: -873866851077941581
+    second: cimasegurando_3
   - first:
-      213: -1079926672931870984
-    second: WalkBack_4
+      213: -8380419046111350436
+    second: cimasegurando_4
   - first:
-      213: 3477396209057934131
-    second: WalkBack_5
+      213: 1630734964492104261
+    second: cimasegurando_5
   - first:
-      213: -8467925914938719458
-    second: WalkBack_6
+      213: 1806303168416259938
+    second: cimasegurando_6
   - first:
-      213: 2253765444804793852
-    second: WalkBack_7
+      213: 886624935607731391
+    second: cimasegurando_7
   - first:
-      213: -5618938018417103340
-    second: WalkBack_8
+      213: -4551573486106101899
+    second: cimasegurando_8
   - first:
-      213: 4675185681545177256
-    second: WalkBack_9
+      213: -2921465434796898551
+    second: cimasegurando_9
   - first:
-      213: -2601601443875522698
-    second: WalkBack_10
+      213: 721026081881576842
+    second: cimasegurando_10
   - first:
-      213: 7175090174004684155
-    second: WalkBack_11
+      213: 7772705080296997980
+    second: cimasegurando_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,19 +117,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 12
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -144,6 +131,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -172,13 +172,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkBack_0
+      name: cimasegurando_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 898
-        width: 345
-        height: 449
+        x: 51
+        y: 938
+        width: 186
+        height: 387
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e38fdd55c6f8a8b70800000000000000
-      internalID: 8902085308911056958
+      spriteID: 8e5fdf9749d2c6680800000000000000
+      internalID: -8760577059417360920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_1
+      name: cimasegurando_1
       rect:
         serializedVersion: 2
-        x: 345
-        y: 898
-        width: 345
-        height: 449
+        x: 350
+        y: 938
+        width: 185
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f1e87741d997b3e0800000000000000
-      internalID: -2037991182235541006
+      spriteID: 39db7d20356cd56a0800000000000000
+      internalID: -6458788230747144813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_2
+      name: cimasegurando_2
       rect:
         serializedVersion: 2
-        x: 690
-        y: 898
-        width: 345
-        height: 449
+        x: 649
+        y: 945
+        width: 185
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93b831e5b60b6a0b0800000000000000
-      internalID: -5717688701713937607
+      spriteID: 8c97e6fc3bd0fc100800000000000000
+      internalID: 130337980147464648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_3
+      name: cimasegurando_3
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 898
-        width: 345
-        height: 449
+        x: 948
+        y: 946
+        width: 185
+        height: 393
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b54957a4c5691170800000000000000
-      internalID: 8149656895999264185
+      spriteID: 3b692889ab66fd3f0800000000000000
+      internalID: -873866851077941581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_4
+      name: cimasegurando_4
       rect:
         serializedVersion: 2
-        x: 1380
-        y: 898
-        width: 345
-        height: 449
+        x: 1247
+        y: 945
+        width: 186
+        height: 391
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f62d64a9645301f0800000000000000
-      internalID: -1079926672931870984
+      spriteID: c517d976745c2bb80800000000000000
+      internalID: -8380419046111350436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_5
+      name: cimasegurando_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 449
-        width: 345
-        height: 449
+        x: 50
+        y: 490
+        width: 187
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,20 +297,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33b20389d61324030800000000000000
-      internalID: 3477396209057934131
+      spriteID: 5427c596fc881a610800000000000000
+      internalID: 1630734964492104261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_6
+      name: cimasegurando_6
       rect:
         serializedVersion: 2
-        x: 345
-        y: 449
-        width: 345
-        height: 449
+        x: 349
+        y: 488
+        width: 187
+        height: 389
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e13c0cfce32eb7a80800000000000000
-      internalID: -8467925914938719458
+      spriteID: 26f1d165927411910800000000000000
+      internalID: 1806303168416259938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_7
+      name: cimasegurando_7
       rect:
         serializedVersion: 2
-        x: 690
-        y: 449
-        width: 345
-        height: 449
+        x: 648
+        y: 489
+        width: 184
+        height: 387
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,20 +341,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf5d3a82bbbf64f10800000000000000
-      internalID: 2253765444804793852
+      spriteID: fb407ef6eaced4c00800000000000000
+      internalID: 886624935607731391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_8
+      name: cimasegurando_8
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 449
-        width: 345
-        height: 449
+        x: 947
+        y: 488
+        width: 185
+        height: 391
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,20 +363,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41eaf4584a58502b0800000000000000
-      internalID: -5618938018417103340
+      spriteID: 5773f87970095d0c0800000000000000
+      internalID: -4551573486106101899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_9
+      name: cimasegurando_9
       rect:
         serializedVersion: 2
-        x: 1380
-        y: 449
-        width: 345
-        height: 449
+        x: 1246
+        y: 489
+        width: 184
+        height: 389
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,20 +385,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a82e7f6b9891e040800000000000000
-      internalID: 4675185681545177256
+      spriteID: 90749576aaed477d0800000000000000
+      internalID: -2921465434796898551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_10
+      name: cimasegurando_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 345
-        height: 449
+        x: 50
+        y: 39
+        width: 184
+        height: 386
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,20 +407,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 677f7aa454145ebd0800000000000000
-      internalID: -2601601443875522698
+      spriteID: a85d75cb669910a00800000000000000
+      internalID: 721026081881576842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_11
+      name: cimasegurando_11
       rect:
         serializedVersion: 2
-        x: 345
-        y: 0
-        width: 345
-        height: 449
+        x: 349
+        y: 42
+        width: 184
+        height: 380
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -429,8 +429,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b75e1fc7f7a039360800000000000000
-      internalID: 7175090174004684155
+      spriteID: c540af6c6123edb60800000000000000
+      internalID: 7772705080296997980
       vertices: []
       indices: 
       edges: []
@@ -439,7 +439,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 311c2a2ab2198c644a4c6c47d604c287
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -449,18 +449,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WalkBack_0: 8902085308911056958
-      WalkBack_1: -2037991182235541006
-      WalkBack_10: -2601601443875522698
-      WalkBack_11: 7175090174004684155
-      WalkBack_2: -5717688701713937607
-      WalkBack_3: 8149656895999264185
-      WalkBack_4: -1079926672931870984
-      WalkBack_5: 3477396209057934131
-      WalkBack_6: -8467925914938719458
-      WalkBack_7: 2253765444804793852
-      WalkBack_8: -5618938018417103340
-      WalkBack_9: 4675185681545177256
+      cimasegurando_0: -8760577059417360920
+      cimasegurando_1: -6458788230747144813
+      cimasegurando_10: 721026081881576842
+      cimasegurando_11: 7772705080296997980
+      cimasegurando_2: 130337980147464648
+      cimasegurando_3: -873866851077941581
+      cimasegurando_4: -8380419046111350436
+      cimasegurando_5: 1630734964492104261
+      cimasegurando_6: 1806303168416259938
+      cimasegurando_7: 886624935607731391
+      cimasegurando_8: -4551573486106101899
+      cimasegurando_9: -2921465434796898551
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

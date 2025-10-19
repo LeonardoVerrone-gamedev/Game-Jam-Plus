@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 169a91f3f9014cd469ad6468b01f746d
+guid: 7decb2a945ea8c14abf9c29137291a15
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8902085308911056958
-    second: WalkBack_0
+      213: -208491323235932108
+    second: esquerdasegurando_0
   - first:
-      213: -2037991182235541006
-    second: WalkBack_1
+      213: 7515579897064604056
+    second: esquerdasegurando_1
   - first:
-      213: -5717688701713937607
-    second: WalkBack_2
+      213: -432865364047524286
+    second: esquerdasegurando_2
   - first:
-      213: 8149656895999264185
-    second: WalkBack_3
+      213: 4328387286177923740
+    second: esquerdasegurando_3
   - first:
-      213: -1079926672931870984
-    second: WalkBack_4
+      213: -5398106947722948034
+    second: esquerdasegurando_4
   - first:
-      213: 3477396209057934131
-    second: WalkBack_5
+      213: -4776337750237307725
+    second: esquerdasegurando_5
   - first:
-      213: -8467925914938719458
-    second: WalkBack_6
+      213: -4646785696692200778
+    second: esquerdasegurando_6
   - first:
-      213: 2253765444804793852
-    second: WalkBack_7
+      213: 1519267089037386860
+    second: esquerdasegurando_7
   - first:
-      213: -5618938018417103340
-    second: WalkBack_8
+      213: -8698517924189532426
+    second: esquerdasegurando_8
   - first:
-      213: 4675185681545177256
-    second: WalkBack_9
+      213: 9176973723982562362
+    second: esquerdasegurando_9
   - first:
-      213: -2601601443875522698
-    second: WalkBack_10
+      213: 1218588686505578772
+    second: esquerdasegurando_10
   - first:
-      213: 7175090174004684155
-    second: WalkBack_11
+      213: -3591532305514445954
+    second: esquerdasegurando_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,19 +117,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 12
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -144,6 +131,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -172,13 +172,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkBack_0
+      name: esquerdasegurando_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 898
-        width: 345
-        height: 449
+        x: 336
+        y: 920
+        width: 157
+        height: 371
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e38fdd55c6f8a8b70800000000000000
-      internalID: 8902085308911056958
+      spriteID: 43865c30f3a4b1df0800000000000000
+      internalID: -208491323235932108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_1
+      name: esquerdasegurando_1
       rect:
         serializedVersion: 2
-        x: 345
-        y: 898
-        width: 345
-        height: 449
+        x: 1134
+        y: 920
+        width: 157
+        height: 378
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f1e87741d997b3e0800000000000000
-      internalID: -2037991182235541006
+      spriteID: 8914a9dd814bc4860800000000000000
+      internalID: 7515579897064604056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_2
+      name: esquerdasegurando_2
       rect:
         serializedVersion: 2
-        x: 690
-        y: 898
-        width: 345
-        height: 449
+        x: 1931
+        y: 919
+        width: 157
+        height: 386
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93b831e5b60b6a0b0800000000000000
-      internalID: -5717688701713937607
+      spriteID: 24e806cae372ef9f0800000000000000
+      internalID: -432865364047524286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_3
+      name: esquerdasegurando_3
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 898
-        width: 345
-        height: 449
+        x: 2732
+        y: 918
+        width: 157
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b54957a4c5691170800000000000000
-      internalID: 8149656895999264185
+      spriteID: c92c3f2dd45811c30800000000000000
+      internalID: 4328387286177923740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_4
+      name: esquerdasegurando_4
       rect:
         serializedVersion: 2
-        x: 1380
-        y: 898
-        width: 345
-        height: 449
+        x: 3530
+        y: 913
+        width: 163
+        height: 379
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f62d64a9645301f0800000000000000
-      internalID: -1079926672931870984
+      spriteID: e32d769d4521615b0800000000000000
+      internalID: -5398106947722948034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_5
+      name: esquerdasegurando_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 449
-        width: 345
-        height: 449
+        x: 336
+        y: 470
+        width: 157
+        height: 371
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,20 +297,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33b20389d61324030800000000000000
-      internalID: 3477396209057934131
+      spriteID: 3bc11dd4f1a07bdb0800000000000000
+      internalID: -4776337750237307725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_6
+      name: esquerdasegurando_6
       rect:
         serializedVersion: 2
-        x: 345
-        y: 449
-        width: 345
-        height: 449
+        x: 1134
+        y: 470
+        width: 157
+        height: 378
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e13c0cfce32eb7a80800000000000000
-      internalID: -8467925914938719458
+      spriteID: 6ba9b41570d438fb0800000000000000
+      internalID: -4646785696692200778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_7
+      name: esquerdasegurando_7
       rect:
         serializedVersion: 2
-        x: 690
-        y: 449
-        width: 345
-        height: 449
+        x: 1931
+        y: 470
+        width: 157
+        height: 385
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,20 +341,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf5d3a82bbbf64f10800000000000000
-      internalID: 2253765444804793852
+      spriteID: c64e3093e55851510800000000000000
+      internalID: 1519267089037386860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_8
+      name: esquerdasegurando_8
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 449
-        width: 345
-        height: 449
+        x: 2731
+        y: 470
+        width: 157
+        height: 385
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,20 +363,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 41eaf4584a58502b0800000000000000
-      internalID: -5618938018417103340
+      spriteID: 6fe8050e808a84780800000000000000
+      internalID: -8698517924189532426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_9
+      name: esquerdasegurando_9
       rect:
         serializedVersion: 2
-        x: 1380
-        y: 449
-        width: 345
-        height: 449
+        x: 3532
+        y: 468
+        width: 157
+        height: 382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,20 +385,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a82e7f6b9891e040800000000000000
-      internalID: 4675185681545177256
+      spriteID: a340313faf82b5f70800000000000000
+      internalID: 9176973723982562362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_10
+      name: esquerdasegurando_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 345
-        height: 449
+        x: 330
+        y: 18
+        width: 165
+        height: 374
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,20 +407,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 677f7aa454145ebd0800000000000000
-      internalID: -2601601443875522698
+      spriteID: 411997a34fb49e010800000000000000
+      internalID: 1218588686505578772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WalkBack_11
+      name: esquerdasegurando_11
       rect:
         serializedVersion: 2
-        x: 345
-        y: 0
-        width: 345
-        height: 449
+        x: 1130
+        y: 18
+        width: 165
+        height: 374
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -429,8 +429,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b75e1fc7f7a039360800000000000000
-      internalID: 7175090174004684155
+      spriteID: e73c87a9560582ec0800000000000000
+      internalID: -3591532305514445954
       vertices: []
       indices: 
       edges: []
@@ -439,7 +439,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 311c2a2ab2198c644a4c6c47d604c287
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -449,18 +449,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WalkBack_0: 8902085308911056958
-      WalkBack_1: -2037991182235541006
-      WalkBack_10: -2601601443875522698
-      WalkBack_11: 7175090174004684155
-      WalkBack_2: -5717688701713937607
-      WalkBack_3: 8149656895999264185
-      WalkBack_4: -1079926672931870984
-      WalkBack_5: 3477396209057934131
-      WalkBack_6: -8467925914938719458
-      WalkBack_7: 2253765444804793852
-      WalkBack_8: -5618938018417103340
-      WalkBack_9: 4675185681545177256
+      esquerdasegurando_0: -208491323235932108
+      esquerdasegurando_1: 7515579897064604056
+      esquerdasegurando_10: 1218588686505578772
+      esquerdasegurando_11: -3591532305514445954
+      esquerdasegurando_2: -432865364047524286
+      esquerdasegurando_3: 4328387286177923740
+      esquerdasegurando_4: -5398106947722948034
+      esquerdasegurando_5: -4776337750237307725
+      esquerdasegurando_6: -4646785696692200778
+      esquerdasegurando_7: 1519267089037386860
+      esquerdasegurando_8: -8698517924189532426
+      esquerdasegurando_9: 9176973723982562362
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

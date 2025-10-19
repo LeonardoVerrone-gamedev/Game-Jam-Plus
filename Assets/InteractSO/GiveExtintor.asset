@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8387d8d3c71eee441bf414a1ef608b5d, type: 3}
   m_Name: GiveExtintor
   m_EditorClassIdentifier: 
-  ItemName: 
+  ItemName: Extintor
   Type: 1
+  holdingSprite: {fileID: 600174027, guid: 17d33cbb36b8d8847ae9e50e5a39f2f5, type: 3}
   FrankensteinPartSO: {fileID: 0}
