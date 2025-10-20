@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 7e8a85e5f314ac6498a5ef76a7799043
+guid: 1b15ad22afac92e4989d295d8bacfc7d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8284380865465137902
-    second: COiso_0
+      213: -5184949069858130739
+    second: CEL MENU CONTROLES_0
+  - first:
+      213: 4661287232218945396
+    second: CEL MENU CONTROLES_1
+  - first:
+      213: -6161092695956791593
+    second: CEL MENU CONTROLES_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,19 +78,6 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -123,6 +116,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -139,13 +145,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: COiso_0
+      name: CEL MENU CONTROLES_0
       rect:
         serializedVersion: 2
-        x: 130
-        y: 272
-        width: 349
-        height: 139
+        x: 449
+        y: 533
+        width: 382
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +160,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21548e1de77f70d80800000000000000
-      internalID: -8284380865465137902
+      spriteID: dc43d90ca4c5b08b0800000000000000
+      internalID: -5184949069858130739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CEL MENU CONTROLES_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 127
+        width: 1179
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47759788a0830b040800000000000000
+      internalID: 4661287232218945396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CEL MENU CONTROLES_2
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 17
+        width: 239
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dedd3df5d66f7aa0800000000000000
+      internalID: -6161092695956791593
       vertices: []
       indices: 
       edges: []
@@ -164,7 +214,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +224,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      COiso_0: -8284380865465137902
+      CEL MENU CONTROLES_0: -5184949069858130739
+      CEL MENU CONTROLES_1: 4661287232218945396
+      CEL MENU CONTROLES_2: -6161092695956791593
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

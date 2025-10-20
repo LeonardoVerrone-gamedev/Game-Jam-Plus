@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: Extintor
   Type: 1
-  holdingSprite: {fileID: -3743753548093124832, guid: 09d16ef7e94cf654bbb263223b498681, type: 3}
+  holdingSprite: {fileID: -8284380865465137902, guid: 7e8a85e5f314ac6498a5ef76a7799043, type: 3}
   FrankensteinPartSO: {fileID: 0}
