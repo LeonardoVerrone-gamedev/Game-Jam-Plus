@@ -34,6 +34,7 @@ public class FrankensteinMonster : MonoBehaviour
     [SerializeField] float minStartFireTime = 10f;
     [SerializeField] float maxStartFireTime = 100f;
     [SerializeField] ParticleSystem fireParticles;
+    [SerializeField] Animator extintorAnim;
     public int fireAmount = 5;
 
     [Header("Sound")]
@@ -218,6 +219,7 @@ public class FrankensteinMonster : MonoBehaviour
         fireAudioSource.Stop();
 
         OnFire = false;
+        extintorAnim.SetTrigger("Play");
         Debug.Log("Fogo apagado!");
     }
 
